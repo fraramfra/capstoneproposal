@@ -1,0 +1,7 @@
+---
+title: "¡Capstone Skeleton!"
+---
+
+This is our capstone proposal skeleton.
+
+
