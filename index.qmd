@@ -2,11 +2,15 @@
 title: "¡Capstone Home Page!"
 ---
 
-Purpose:
+## Purpose:
 
+Introduction to website
+
+## Download CSV: 
 
 Downloadable Datasets:
 
+# R Package:
 
 R Package Link:
 
