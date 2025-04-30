@@ -28,6 +28,34 @@
     "text": "Original Data Source: [Link to the dataset or description of its origin]\n\nLicense: [Dataset license, e.g., “CC BY 4.0”]\n\nCitation: [If applicable, how to cite the data source or paper]\n\nReferences: [Links to or descriptions of key methods, algorithms, or resources used]\n\nAcknowledgements: [Contributors, collaborators, or any support received]"
   },
   {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Dataset Descriptions",
+    "section": "",
+    "text": "This dataset…\n\nDownload button\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+  },
+  {
+    "objectID": "datasets.html#dataset-1",
+    "href": "datasets.html#dataset-1",
+    "title": "Dataset Descriptions",
+    "section": "",
+    "text": "This dataset…\n\nDownload button\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+  },
+  {
+    "objectID": "datasets.html#dataset-2",
+    "href": "datasets.html#dataset-2",
+    "title": "Dataset Descriptions",
+    "section": "DATASET 2",
+    "text": "DATASET 2\nThis dataset…\n\nDownload button\n\n\n\n\nDataset 1\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\nDataset 2\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+  },
+  {
+    "objectID": "datasets.html#dataset-3",
+    "href": "datasets.html#dataset-3",
+    "title": "Dataset Descriptions",
+    "section": "DATASET 3",
+    "text": "DATASET 3\nThis dataset…\n\nDownload button\n\n\n\n\nDataset 1\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\nDataset 2\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "¡Capstone Home Page!",
@@ -47,40 +75,5 @@
     "title": "¡Capstone Home Page!",
     "section": "Download CSV:",
     "text": "Download CSV:\nDownloadable Datasets:"
-  },
-  {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Dataset Descriptions",
-    "section": "",
-    "text": "This dataset…\n\nDownload button"
-  },
-  {
-    "objectID": "datasets.html#dataset-1",
-    "href": "datasets.html#dataset-1",
-    "title": "Dataset Descriptions",
-    "section": "",
-    "text": "This dataset…\n\nDownload button"
-  },
-  {
-    "objectID": "datasets.html#dataset-2",
-    "href": "datasets.html#dataset-2",
-    "title": "Dataset Descriptions",
-    "section": "DATASET 2",
-    "text": "DATASET 2\nThis dataset…\n\nDownload button"
-  },
-  {
-    "objectID": "datasets.html#dataset-3",
-    "href": "datasets.html#dataset-3",
-    "title": "Dataset Descriptions",
-    "section": "DATASET 3",
-    "text": "DATASET 3\nThis dataset…\n\nDownload button"
-  },
-  {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Notebooks\n\n\n\n\nDataset 1\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\nDataset 2\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub\n\n\n\n\nDataset 3\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub\n\n\n\n\nDataset 4\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
   }
 ]

@@ -10,6 +10,38 @@ This dataset...
 
 Download button
 
+:::{.grid-container}
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 1</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Linear Regression, Data Viz
+
+<strong>Developer</strong>: Member A
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 2</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Logistic Regression
+
+<strong>Developer</strong>: Member B
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+:::
+
 ## DATASET 2
 
 This dataset...
@@ -18,6 +50,38 @@ This dataset...
 
 Download button
 
+:::{.grid-container}
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 1</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Linear Regression, Data Viz
+
+<strong>Developer</strong>: Member A
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 2</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Logistic Regression
+
+<strong>Developer</strong>: Member B
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+:::
+
 ## DATASET 3
 
 This dataset...
@@ -25,3 +89,35 @@ This dataset...
 ![](img/description.png)
 
 Download button
+
+:::{.grid-container}
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 1</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Linear Regression, Data Viz
+
+<strong>Developer</strong>: Member A
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+<div class="grid-item">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset 2</h3>
+  <p>
+<strong>Summary</strong>: Description.
+
+<strong>Data Science Toolkit</strong>: Logistic Regression
+
+<strong>Developer</strong>: Member B
+</p>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+:::
