@@ -4,7 +4,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Notebooks"
+    "text": "Notebooks\n\n\n\n\nCommuting Insights\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\nCommuting Insights\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
   },
   {
     "objectID": "datasets.html",
@@ -39,6 +39,6 @@
     "href": "index.html",
     "title": "¡Capstone Home Page!",
     "section": "",
-    "text": "This is our capstone proposal skeleton."
+    "text": "Purpose:\nDownloadable Datasets:\nR Package Link:"
   }
 ]

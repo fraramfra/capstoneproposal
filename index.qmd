@@ -2,6 +2,12 @@
 title: "¡Capstone Home Page!"
 ---
 
-This is our capstone proposal skeleton.
+Purpose:
+
+
+Downloadable Datasets:
+
+
+R Package Link:
 
 
