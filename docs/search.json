@@ -1,8 +1,43 @@
 [
   {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Notebooks"
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Dataset Descriptions",
+    "section": "",
+    "text": "This dataset…"
+  },
+  {
+    "objectID": "datasets.html#dataset-1",
+    "href": "datasets.html#dataset-1",
+    "title": "Dataset Descriptions",
+    "section": "",
+    "text": "This dataset…"
+  },
+  {
+    "objectID": "datasets.html#dataset-2",
+    "href": "datasets.html#dataset-2",
+    "title": "Dataset Descriptions",
+    "section": "DATASET 2",
+    "text": "DATASET 2\n\nDescription\nThis dataset…"
+  },
+  {
+    "objectID": "datasets.html#dataset-3",
+    "href": "datasets.html#dataset-3",
+    "title": "Dataset Descriptions",
+    "section": "DATASET 3",
+    "text": "DATASET 3\n\nDescription\nThis dataset…"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "¡Capstone Skeleton!",
+    "title": "¡Capstone Home Page!",
     "section": "",
     "text": "This is our capstone proposal skeleton."
   }

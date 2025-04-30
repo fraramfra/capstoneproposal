@@ -1,5 +1,5 @@
 ---
-title: "¡Capstone Skeleton!"
+title: "¡Capstone Home Page!"
 ---
 
 This is our capstone proposal skeleton.

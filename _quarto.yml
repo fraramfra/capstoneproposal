@@ -2,12 +2,13 @@ project:
   type: website
 
 website:
-  title: "mdscapstoneproposal.github.io"
+  title: "Capstone Proposal"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - datasets.qmd
+      - notebooks.qmd
 
 format:
   html:
