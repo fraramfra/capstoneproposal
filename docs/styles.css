@@ -90,6 +90,11 @@ DATASET DESCRIPTION GRID
 VARIABLE DESCRIPTION GRID
 */
 
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
 .styled-table {
   width: 100%;
   border-collapse: collapse;
@@ -105,14 +110,14 @@ VARIABLE DESCRIPTION GRID
 .styled-table th {
   background-color: #007BA7;
   color: white;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   padding: 0.5rem;
 }
 
 .styled-table td {
-  padding: 0.5rem;
-  border-top: 1px solid #eee;
+  padding: 0.3rem;
+  border-top: 01px solid #eee;
   vertical-align: top;
   color: #333;
 }
