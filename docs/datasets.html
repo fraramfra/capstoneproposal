@@ -112,10 +112,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wildfire" id="toc-wildfire" class="nav-link active" data-scroll-target="#wildfire">Wildfire</a>
-  <ul class="collapse">
-  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
-  </ul></li>
+  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link active" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
+  <li><a href="#bc-indigenous-business-listings" id="toc-bc-indigenous-business-listings" class="nav-link" data-scroll-target="#bc-indigenous-business-listings">BC Indigenous Business Listings</a></li>
   </ul>
 </nav>
     </div>
@@ -141,61 +139,127 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="wildfire" class="level2">
-<h2 class="anchored" data-anchor-id="wildfire">Wildfire</h2>
-<section id="historical-canadian-wildfire-data-2006-2024" class="level3">
-<h3 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h3>
+<section id="historical-canadian-wildfire-data-2006-2024" class="level2">
+<h2 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h2>
 <p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
 <div class="button-container">
 <p><a href="notebooks/datasets/wildfire.csv" download="" class="download-button"> Download CSV </a></p>
 </div>
 <div class="description-grid">
 <div class="field-label">
+CSV Name
+</div>
+<div class="field-value">
+wildfire.csv
+</div>
+<div class="field-label">
 Dataset Characteristics
 </div>
 <div class="field-value">
-[Fill in]
+Multivariate
 </div>
 <div class="field-label">
 Subject Area
 </div>
 <div class="field-value">
-[Fill in]
+Climate Change
 </div>
 <div class="field-label">
 Associated Tasks
 </div>
 <div class="field-value">
-[Fill in]
+Classification, Regression, Time Series, Geospatial Analysis
 </div>
 <div class="field-label">
 Feature Type
 </div>
 <div class="field-value">
-[Fill in]
+Categorical, Integer
 </div>
 <div class="field-label">
 Instances
 </div>
 <div class="field-value">
-[Fill in]
+26551 records
 </div>
 <div class="field-label">
 Features
 </div>
 <div class="field-value">
-[Fill in]
+50
 </div>
 <div class="field-label">
 Has Missing Values?
 </div>
 <div class="field-value">
-[Fill in]
+Yes
 </div>
 </div>
-<blockquote class="blockquote">
-<p>Attribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an <a href="https://open.alberta.ca/licence">Open Government Licence - Alberta</a>. Original dataset: <a href="https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e">Historical wildfire data: 2006-2024</a>.</p>
-</blockquote>
+<table class="styled-table">
+<thead>
+<tr>
+<th>
+Variable Name
+</th>
+<th>
+Role
+</th>
+<th>
+Type
+</th>
+<th>
+Description
+</th>
+<th>
+Units
+</th>
+<th>
+Missing Values
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+ASSESSMENT_HECTARES
+</td>
+<td>
+Feature
+</td>
+<td>
+Float
+</td>
+<td>
+Fire Size
+</td>
+<td>
+Hectares
+</td>
+<td>
+No
+</td>
+</tr>
+<tr>
+<td>
+TRUE_CAUSE
+</td>
+<td>
+Feature
+</td>
+<td>
+Categorical
+</td>
+<td>
+Insufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals
+</td>
+<td>
+</td>
+<td>
+No
+</td>
+</tr>
+</tbody>
+</table>
 <div class="grid-container">
 <div class="grid-item">
 <img src="img/dataset.png" width="20px" height="20px">
@@ -222,9 +286,15 @@ Wildfire Example 2
 <p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a> <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a></p>
 </div>
 </div>
-
-
+<blockquote class="blockquote">
+<p>Attribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an <a href="https://open.alberta.ca/licence">Open Government Licence - Alberta</a>. Original dataset: <a href="https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e">Historical wildfire data: 2006-2024</a>.</p>
+</blockquote>
 </section>
+<section id="bc-indigenous-business-listings" class="level2">
+<h2 class="anchored" data-anchor-id="bc-indigenous-business-listings">BC Indigenous Business Listings</h2>
+<p>…</p>
+
+
 </section>
 
 </main> <!-- /main -->

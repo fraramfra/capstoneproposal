@@ -85,3 +85,38 @@ DATASET DESCRIPTION GRID
 .description-grid .field-value {
   margin-bottom: 0.75rem;
 }
+
+/*
+VARIABLE DESCRIPTION GRID
+*/
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 4px solid #007BA7;
+  font-family: sans-serif;
+}
+
+.styled-table th {
+  background-color: #007BA7;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.styled-table td {
+  padding: 0.5rem;
+  border-top: 1px solid #eee;
+  vertical-align: top;
+  color: #333;
+}
+
+.styled-table tr:last-child td {
+  border-bottom: none;
+}
