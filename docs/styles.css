@@ -1,23 +1,29 @@
-/* css styles */
+/*
+GRID CONTAINER FOR NOTEBOOK LINK CARDS
+*/
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
     gap: 1.5rem;
-    margin-top: 2rem;
-    padding: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
     
 }
 
 .grid-item {
     background: #FFFFFF;
-    padding: 1.8rem;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     border: 4px solid #007BA7;
 }
+
+/*
+SIZING OF IMAGES
+*/
 
 img {
     max-width: 100px;   
@@ -27,17 +33,55 @@ img {
     display: block;    
 }
 
-<style>
-button {
+/*
+CSV DOWNLOAD BUTTONS
+*/
+
+.download-button {
+  display: inline-block;
   background-color: #4CAF50;
   color: white;
   padding: 10px 18px;
-  border: none;
-  cursor: pointer;
   font-size: 16px;
   border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
 }
-button:hover {
+.download-button:hover {
   background-color: #45a049;
 }
-</style>
+.button-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/*
+DATASET DESCRIPTION GRID
+*/
+
+.description-grid {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 0.1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border: 4px solid #007BA7;
+}
+
+.description-grid p {
+  grid-column: 1 / -1;
+}
+
+.description-grid .field-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.description-grid .field-value {
+  margin-bottom: 0.75rem;
+}

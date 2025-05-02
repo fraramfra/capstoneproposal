@@ -4,42 +4,63 @@ title: "Dataset Descriptions"
 
 ## Wildfire
 
-This dataset...
+### Historical Canadian Wildfire Data (2006-2024)
 
-![](img/description.png)
+Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.
 
-<a href="/datasets/wildfire.csv" download>
-  <button type="button">📥 Download CSV</button>
-</a>
+<div class="button-container">
+  <a href="notebooks/datasets/wildfire.csv" download class="download-button">
+    Download CSV
+  </a>
+</div>
+
+<div class="description-grid">
+
+  <div class="field-label">Dataset Characteristics</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Subject Area</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Associated Tasks</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Feature Type</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Instances</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Features</div><div class="field-value">[Fill in]</div>
+  <div class="field-label">Has Missing Values?</div><div class="field-value">[Fill in]</div>
+
+</div>
+
+> Attribution: Data sourced from the Government of Alberta via the Government of Canada's Open Government Portal, available under an [Open Government Licence - Alberta](https://open.alberta.ca/licence). Original dataset: [Historical wildfire data: 2006-2024](https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e).
+
+
+
+
+
 
 :::{.grid-container}
 
 <div class="grid-item">
   <img src="img/dataset.png" width="20px" height="20px">
-  <h3>Dataset 1</h3>
+  <h3>Wildfire Example 1</h3>
   <p>
-<strong>Summary</strong>: Description.
+<strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (>10 hectares)?
 
-<strong>Data Science Toolkit</strong>: Linear Regression, Data Viz
+<strong>Data Science Toolkit</strong>: R, ggplot, EDA, Logistic Regression
 
-<strong>Developer</strong>: Member A
+<strong>Developer</strong>: Azin Piran
 </p>
-  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
-  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire.html" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a>
 </div>
 
 <div class="grid-item">
   <img src="img/dataset.png" width="20px" height="20px">
-  <h3>Dataset 2</h3>
+  <h3>Wildfire Example 2</h3>
   <p>
 <strong>Summary</strong>: Description.
 
-<strong>Data Science Toolkit</strong>: Logistic Regression
+<strong>Data Science Toolkit</strong>: TBD
 
-<strong>Developer</strong>: Member B
+<strong>Developer</strong>: TBD
 </p>
-  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a>
-  <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a>
 </div>
 
 :::

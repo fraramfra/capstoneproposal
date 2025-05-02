@@ -37,37 +37,44 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "¡Capstone Home Page!",
+    "title": "Diverse Data Repository for Data Science Education",
     "section": "",
-    "text": "Introduction to website"
+    "text": "Instructors struggle to integrate equity, diversity, and inclusion topics into data science education due to limited resources and inclusive datasets. As a result, students may miss opportunities to engage with real-world social issues."
   },
   {
-    "objectID": "index.html#purpose",
-    "href": "index.html#purpose",
-    "title": "¡Capstone Home Page!",
-    "section": "",
-    "text": "Introduction to website"
+    "objectID": "index.html#download-the-datasets",
+    "href": "index.html#download-the-datasets",
+    "title": "Diverse Data Repository for Data Science Education",
+    "section": "Download the Datasets",
+    "text": "Download the Datasets\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024."
   },
   {
-    "objectID": "index.html#download-csv",
-    "href": "index.html#download-csv",
-    "title": "¡Capstone Home Page!",
-    "section": "Download CSV:",
-    "text": "Download CSV:\nDownloadable Datasets:"
+    "objectID": "index.html#r-package",
+    "href": "index.html#r-package",
+    "title": "Diverse Data Repository for Data Science Education",
+    "section": "R Package:",
+    "text": "R Package:\nR Package CRAN"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Diverse Data Repository for Data Science Education",
+    "section": "Contact Information",
+    "text": "Contact Information\n\nOwners\nKatie Burak PhD\n\n\nCollaborators\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian"
   },
   {
     "objectID": "datasets.html",
     "href": "datasets.html",
     "title": "Dataset Descriptions",
     "section": "",
-    "text": "This dataset…\n\n 📥 Download CSV \n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+    "text": "Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.\n\n Download CSV \n\n\n\nDataset Characteristics\n\n\n[Fill in]\n\n\nSubject Area\n\n\n[Fill in]\n\n\nAssociated Tasks\n\n\n[Fill in]\n\n\nFeature Type\n\n\n[Fill in]\n\n\nInstances\n\n\n[Fill in]\n\n\nFeatures\n\n\n[Fill in]\n\n\nHas Missing Values?\n\n\n[Fill in]\n\n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024.\n\n\n\n\n\n\nInquiry: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?\nData Science Toolkit: R, ggplot, EDA, Logistic Regression\nDeveloper: Azin Piran\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: TBD\nDeveloper: TBD\n\nDisabled Disabled"
   },
   {
     "objectID": "datasets.html#wildfire",
     "href": "datasets.html#wildfire",
     "title": "Dataset Descriptions",
     "section": "",
-    "text": "This dataset…\n\n 📥 Download CSV \n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Linear Regression, Data Viz\nDeveloper: Member A\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: Logistic Regression\nDeveloper: Member B\n\nNotebook GitHub"
+    "text": "Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.\n\n Download CSV \n\n\n\nDataset Characteristics\n\n\n[Fill in]\n\n\nSubject Area\n\n\n[Fill in]\n\n\nAssociated Tasks\n\n\n[Fill in]\n\n\nFeature Type\n\n\n[Fill in]\n\n\nInstances\n\n\n[Fill in]\n\n\nFeatures\n\n\n[Fill in]\n\n\nHas Missing Values?\n\n\n[Fill in]\n\n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024.\n\n\n\n\n\n\nInquiry: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?\nData Science Toolkit: R, ggplot, EDA, Logistic Regression\nDeveloper: Azin Piran\n\nNotebook GitHub\n\n\n\n\n\nSummary: Description.\nData Science Toolkit: TBD\nDeveloper: TBD\n\nDisabled Disabled"
   },
   {
     "objectID": "notebooks/notebook_py.html",

@@ -90,19 +90,11 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./datasets.html" aria-current="page"> 
 <span class="menu-text">Dataset Descriptions</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./notebooks/notebook_py.html"> 
-<span class="menu-text">Python Page With Code</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./notebooks/wildfire.html"> 
-<span class="menu-text">Wildfire Dataset</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -120,7 +112,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#wildfire" id="toc-wildfire" class="nav-link active" data-scroll-target="#wildfire">Wildfire</a></li>
+  <li><a href="#wildfire" id="toc-wildfire" class="nav-link active" data-scroll-target="#wildfire">Wildfire</a>
+  <ul class="collapse">
+  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -148,37 +143,88 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="wildfire" class="level2">
 <h2 class="anchored" data-anchor-id="wildfire">Wildfire</h2>
-<p>This dataset…</p>
-<p><img src="img/description.png" class="img-fluid"></p>
-<p><a href="./datasets/wildfire.csv" download=""> <button type="button">📥 Download CSV</button> </a></p>
+<section id="historical-canadian-wildfire-data-2006-2024" class="level3">
+<h3 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h3>
+<p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
+<div class="button-container">
+<p><a href="notebooks/datasets/wildfire.csv" download="" class="download-button"> Download CSV </a></p>
+</div>
+<div class="description-grid">
+<div class="field-label">
+Dataset Characteristics
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Subject Area
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Associated Tasks
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Feature Type
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Instances
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Features
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+<div class="field-label">
+Has Missing Values?
+</div>
+<div class="field-value">
+[Fill in]
+</div>
+</div>
+<blockquote class="blockquote">
+<p>Attribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an <a href="https://open.alberta.ca/licence">Open Government Licence - Alberta</a>. Original dataset: <a href="https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e">Historical wildfire data: 2006-2024</a>.</p>
+</blockquote>
 <div class="grid-container">
 <div class="grid-item">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
-Dataset 1
+Wildfire Example 1
 </h3>
 <p>
-</p><p><strong>Summary</strong>: Description.</p>
-<p><strong>Data Science Toolkit</strong>: Linear Regression, Data Viz</p>
-<strong>Developer</strong>: Member A
+</p><p><strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?</p>
+<p><strong>Data Science Toolkit</strong>: R, ggplot, EDA, Logistic Regression</p>
+<strong>Developer</strong>: Azin Piran
 <p></p>
-<p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a></p>
+<p><a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire.html" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a></p>
 </div>
 <div class="grid-item">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
-Dataset 2
+Wildfire Example 2
 </h3>
 <p>
 </p><p><strong>Summary</strong>: Description.</p>
-<p><strong>Data Science Toolkit</strong>: Logistic Regression</p>
-<strong>Developer</strong>: Member B
+<p><strong>Data Science Toolkit</strong>: TBD</p>
+<strong>Developer</strong>: TBD
 <p></p>
-<p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/fraramfra/capstoneproposal" class="btn btn-outline-dark">GitHub</a></p>
+<p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a> <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a></p>
 </div>
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

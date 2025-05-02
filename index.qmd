@@ -1,17 +1,38 @@
 ---
-title: "¡Capstone Home Page!"
+title: "Diverse Data Repository for Data Science Education"
 ---
 
-## Purpose:
+### Problem
+Instructors struggle to integrate equity, diversity, and inclusion topics into data science education due to limited resources and inclusive datasets. As a result, students may miss opportunities to engage with real-world social issues.
 
-Introduction to website
+### Purpose
+Create a user-friendly, curated R data package and educational website featuring EDI-focused datasets and teaching examples, empowering instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects.
 
-## Download CSV: 
+## Download the Datasets 
 
-Downloadable Datasets:
+### Historical Canadian Wildfire Data (2006-2024)
 
-# R Package:
+<div class="button-container">
+  <a href="notebooks/datasets/wildfire.csv" download class="download-button">
+    Download CSV
+  </a>
+</div>
 
-R Package Link:
+> Attribution: Data sourced from the Government of Alberta via the Government of Canada's Open Government Portal, available under an [Open Government Licence - Alberta](https://open.alberta.ca/licence). Original dataset: [Historical wildfire data: 2006-2024](https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e).
 
+## R Package:
+
+R Package CRAN
+
+## Contact Information
+### Owners
+
+[Katie Burak PhD](https://github.com/katieburak)
+
+### Collaborators
+[Francisco Ramirez](https://github.com/fraramfra)
+
+[Azin Piran](https://github.com/AzinPiran)
+
+[Siddarth Subrahmanian](https://github.com/siddart-1)
 
