@@ -2,10 +2,10 @@
 title: "Diverse Data Repository for Data Science Education"
 ---
 
-### Problem
+## Problem
 Instructors struggle to integrate equity, diversity, and inclusion topics into data science education due to limited resources and inclusive datasets. As a result, students may miss opportunities to engage with real-world social issues.
 
-### Purpose
+## Purpose
 This website containes the documentation related to a curated R data package and EDI-focused datasets and teaching examples, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects.
 
 ## Download the Datasets 
