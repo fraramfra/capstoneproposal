@@ -8,7 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - datasets.qmd
-      - template.qmd
+      - notebooks/notebook_py.qmd
+      - notebooks/wildfire.qmd
 
 format:
   html:
