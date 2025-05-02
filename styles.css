@@ -26,3 +26,18 @@ img {
     margin: 0 auto;    
     display: block;    
 }
+
+<style>
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #45a049;
+}
+</style>

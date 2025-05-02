@@ -1,10 +1,8 @@
 ---
-title: '"Wildfire" Dataset'
+title: 'Wildfire Dataset'
 format: html
 editor: visual
 ---
-
-# Wildfire Dataset
 
 ## About the Data
 
