@@ -2,6 +2,39 @@
 title: "Dataset Descriptions"
 ---
 
+## Topic Filtering
+
+<div id="tag-filters" class="tag-filter-container">
+  <label><input type="checkbox" value="data-wrangling"> Data Wrangling</label>
+  <label><input type="checkbox" value="r"> R</label>
+  <label><input type="checkbox" value="python"> Python</label>
+  <label><input type="checkbox" value="eda"> EDA</label>
+  <label><input type="checkbox" value="classification"> Classification</label>
+  <label><input type="checkbox" value="regression"> Regression</label>
+  <label><input type="checkbox" value="geospatial"> Geospatial</label>
+  <label><input type="checkbox" value="machine-learning"> Machine Learning</label>
+  <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label>
+  <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label>
+  <label><input type="checkbox" value="data-visualization"> Data Visualization</label>
+  <label><input type="checkbox" value="time-series"> Time Series</label>
+  <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label>
+  <label><input type="checkbox" value="na"> No Tag</label>
+</div>
+
+## Library/Package Filtering
+
+<div id="library-filters" class="tag-filter-container">
+  <label><input type="checkbox" value="dplyr"> R = dplyr</label>
+  <label><input type="checkbox" value="ggplot2"> R = ggplot2</label>
+  <label><input type="checkbox" value="broom"> R = broom</label>
+  <label><input type="checkbox" value="gt"> R = gt</label>
+  <label><input type="checkbox" value="marginaleffects"> R = marginaleffects</label>
+</div>
+
+
+
+::: {.static-content}
+
 ## Historical Canadian Wildfire Data (2006-2024)
 
 Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.
@@ -58,13 +91,13 @@ Dataset including information on wildfires in the province of Alberta from 2006 
   </table>
 </div>
 
-
+:::
 
 :::{.grid-container}
 
-<div class="grid-item">
+<div class="grid-item" data-tags="data-wrangling,eda,regression,logistic-regression,r,dplyr,ggplot2,broom,gt,marginaleffects">
   <img src="img/dataset.png" width="20px" height="20px">
-  <h3>Wildfire Example 1</h3>
+  <h3>Wildfire Example A</h3>
   <p>
 <strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (>10 hectares)?
 
@@ -76,9 +109,9 @@ Dataset including information on wildfires in the province of Alberta from 2006 
   <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a>
 </div>
 
-<div class="grid-item">
+<div class="grid-item" data-tags="na">
   <img src="img/dataset.png" width="20px" height="20px">
-  <h3>Wildfire Example 2</h3>
+  <h3>Wildfire Example B</h3>
   <p>
 <strong>Inquiry</strong>: Description.
 
@@ -92,8 +125,163 @@ Dataset including information on wildfires in the province of Alberta from 2006 
 
 :::
 
+::: {.static-content}
+
 > Attribution: Data sourced from the Government of Alberta via the Government of Canada's Open Government Portal, available under an [Open Government Licence - Alberta](https://open.alberta.ca/licence). Original dataset: [Historical wildfire data: 2006-2024](https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e).
 
-## BC Indigenous Business Listings
+:::
 
-...
+
+
+
+
+
+
+
+
+
+
+
+::: {.static-content}
+
+## NEW DATASET
+
+Dataset description
+
+<div class="button-container">
+  <a href="" download class="download-button">
+    Download CSV
+  </a>
+</div>
+
+<div class="description-grid">
+
+  <div class="field-label">CSV Name</div><div class="field-value">TBD</div>
+  <div class="field-label">Dataset Characteristics</div><div class="field-value">TBD</div>
+  <div class="field-label">Subject Area</div><div class="field-value">TBD</div>
+  <div class="field-label">Associated Tasks</div><div class="field-value">TBD</div>
+  <div class="field-label">Feature Type</div><div class="field-value">TBD</div>
+  <div class="field-label">Instances</div><div class="field-value">TBD</div>
+  <div class="field-label">Features</div><div class="field-value">TBD</div>
+  <div class="field-label">Has Missing Values?</div><div class="field-value">TBD</div>
+
+</div>
+
+<div class="table-container">
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Variable Name</th>
+        <th>Role</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Units</th>
+        <th>Missing Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+:::
+
+:::{.grid-container}
+
+<div class="grid-item" data-tags="na">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset Example A</h3>
+  <p>
+<strong>Inquiry</strong>: TBD
+
+<strong>Data Science Toolkit</strong>: TBD
+
+<strong>Developer</strong>: TBD
+</p>
+  <a href="" class="btn btn-outline-dark">Notebook</a>
+  <a href="" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+
+<div class="grid-item" data-tags="na">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset Example B</h3>
+  <p>
+<strong>Inquiry</strong>: TBD
+
+<strong>Data Science Toolkit</strong>: TBD
+
+<strong>Developer</strong>: TBD
+</p>
+  <a href="" class="btn btn-outline-dark">Notebook</a>
+  <a href="" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+
+<div class="grid-item" data-tags="na">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Dataset Example C</h3>
+  <p>
+<strong>Inquiry</strong>: TBD
+
+<strong>Data Science Toolkit</strong>: TBD
+
+<strong>Developer</strong>: TBD
+</p>
+  <a href="" class="btn btn-outline-dark">Notebook</a>
+  <a href="" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+:::
+
+::: {.static-content}
+
+> Attribution: TBD
+
+:::
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
+  const gridItems = document.querySelectorAll(".grid-item");
+  const staticContentSections = document.querySelectorAll(".static-content");
+
+  function filterItems() {
+    const selectedTags = Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+
+    const filteringActive = selectedTags.length > 0;
+
+    gridItems.forEach(item => {
+      const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
+      const matches = selectedTags.some(tag => tags.includes(tag));
+      item.style.display = (!filteringActive || matches) ? "block" : "none";
+    });
+
+    staticContentSections.forEach(section => {
+      section.style.display = filteringActive ? "none" : "block";
+    });
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
+});
+</script>

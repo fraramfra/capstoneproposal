@@ -1,5 +1,5 @@
 ---
-title: 'Wildfire Dataset'
+title: 'Wildfire Dataset Example A'
 format: html
 editor: visual
 ---

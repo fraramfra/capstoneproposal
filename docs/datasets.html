@@ -112,8 +112,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link active" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
-  <li><a href="#bc-indigenous-business-listings" id="toc-bc-indigenous-business-listings" class="nav-link" data-scroll-target="#bc-indigenous-business-listings">BC Indigenous Business Listings</a></li>
+  <li><a href="#topic-filtering" id="toc-topic-filtering" class="nav-link active" data-scroll-target="#topic-filtering">Topic Filtering</a></li>
+  <li><a href="#librarypackage-filtering" id="toc-librarypackage-filtering" class="nav-link" data-scroll-target="#librarypackage-filtering">Library/Package Filtering</a></li>
+  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
+  <li><a href="#new-dataset" id="toc-new-dataset" class="nav-link" data-scroll-target="#new-dataset">NEW DATASET</a></li>
   </ul>
 </nav>
     </div>
@@ -139,7 +141,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="historical-canadian-wildfire-data-2006-2024" class="level2">
+<section id="topic-filtering" class="level2">
+<h2 class="anchored" data-anchor-id="topic-filtering">Topic Filtering</h2>
+<div id="tag-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="data-wrangling"> Data Wrangling</label> <label><input type="checkbox" value="r"> R</label> <label><input type="checkbox" value="python"> Python</label> <label><input type="checkbox" value="eda"> EDA</label> <label><input type="checkbox" value="classification"> Classification</label> <label><input type="checkbox" value="regression"> Regression</label> <label><input type="checkbox" value="geospatial"> Geospatial</label> <label><input type="checkbox" value="machine-learning"> Machine Learning</label> <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label> <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label> <label><input type="checkbox" value="data-visualization"> Data Visualization</label> <label><input type="checkbox" value="time-series"> Time Series</label> <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label> <label><input type="checkbox" value="na"> No Tag</label></p>
+</div>
+</section>
+<section id="librarypackage-filtering" class="level2">
+<h2 class="anchored" data-anchor-id="librarypackage-filtering">Library/Package Filtering</h2>
+<div id="library-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="dplyr"> R = dplyr</label> <label><input type="checkbox" value="ggplot2"> R = ggplot2</label> <label><input type="checkbox" value="broom"> R = broom</label> <label><input type="checkbox" value="gt"> R = gt</label> <label><input type="checkbox" value="marginaleffects"> R = marginaleffects</label></p>
+</div>
+</section>
+<section id="historical-canadian-wildfire-data-2006-2024" class="level2 static-content">
 <h2 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h2>
 <p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
 <div class="button-container">
@@ -262,11 +276,12 @@ No
 </tbody>
 </table>
 </div>
+</section>
 <div class="grid-container">
-<div class="grid-item">
+<div class="grid-item" data-tags="data-wrangling,eda,regression,logistic-regression,r,dplyr,ggplot2,broom,gt,marginaleffects">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
-Wildfire Example 1
+Wildfire Example A
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?</p>
@@ -275,10 +290,10 @@ Wildfire Example 1
 <p></p>
 <p><a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire.html" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a></p>
 </div>
-<div class="grid-item">
+<div class="grid-item" data-tags="na">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
-Wildfire Example 2
+Wildfire Example B
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: Description.</p>
@@ -288,16 +303,188 @@ Wildfire Example 2
 <p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a> <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a></p>
 </div>
 </div>
+<div class="static-content">
 <blockquote class="blockquote">
 <p>Attribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an <a href="https://open.alberta.ca/licence">Open Government Licence - Alberta</a>. Original dataset: <a href="https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e">Historical wildfire data: 2006-2024</a>.</p>
 </blockquote>
+</div>
+<section id="new-dataset" class="level2 static-content">
+<h2 class="anchored" data-anchor-id="new-dataset">NEW DATASET</h2>
+<p>Dataset description</p>
+<div class="button-container">
+<p><a href="" download="" class="download-button"> Download CSV </a></p>
+</div>
+<div class="description-grid">
+<div class="field-label">
+CSV Name
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Dataset Characteristics
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Subject Area
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Associated Tasks
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Feature Type
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Instances
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Features
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Has Missing Values?
+</div>
+<div class="field-value">
+TBD
+</div>
+</div>
+<div class="table-container">
+<table class="styled-table">
+<thead>
+<tr>
+<th>
+Variable Name
+</th>
+<th>
+Role
+</th>
+<th>
+Type
+</th>
+<th>
+Description
+</th>
+<th>
+Units
+</th>
+<th>
+Missing Values
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+TBD
+</td>
+<td>
+TBD
+</td>
+<td>
+TBD
+</td>
+<td>
+TBD
+</td>
+<td>
+TBD
+</td>
+<td>
+TBD
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 </section>
-<section id="bc-indigenous-business-listings" class="level2">
-<h2 class="anchored" data-anchor-id="bc-indigenous-business-listings">BC Indigenous Business Listings</h2>
-<p>…</p>
+<div class="grid-container">
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example A
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Data Science Toolkit</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example B
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Data Science Toolkit</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example C
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Data Science Toolkit</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+</div>
+<div class="static-content">
+<blockquote class="blockquote">
+<p>Attribution: TBD</p>
+</blockquote>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
+  const gridItems = document.querySelectorAll(".grid-item");
+  const staticContentSections = document.querySelectorAll(".static-content");
+
+  function filterItems() {
+    const selectedTags = Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+
+    const filteringActive = selectedTags.length > 0;
+
+    gridItems.forEach(item => {
+      const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
+      const matches = selectedTags.some(tag => tags.includes(tag));
+      item.style.display = (!filteringActive || matches) ? "block" : "none";
+    });
+
+    staticContentSections.forEach(section => {
+      section.style.display = filteringActive ? "none" : "block";
+    });
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
+});
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
