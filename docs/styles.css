@@ -158,3 +158,57 @@ Transitions for filter
 .static-content, .grid-item {
   transition: opacity 1s ease;
 }
+
+/*
+Clear Filters button
+*/
+
+#clear-filters {
+  padding: 0.6rem 1.2rem;
+  margin: 1rem auto;
+  border: 3px solid #66c49b;
+  background-color: #e8f5ef;
+  color: #2d6a4f;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  display: block;
+}
+
+#clear-filters:hover {
+  background-color: #d0f0e1;
+  border-color: #4da87e;
+}
+
+
+/*
+Datasets Page Layout
+*/
+
+<style>
+html, body {
+  margin: 0;
+  padding: 00;
+  height: 100%;
+}
+
+.layout-container {
+  display: flex;
+  min-height: 100%;
+}
+
+.sidebar {
+  width: 350px;
+  padding: 1rem;
+  flex-shrink: 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0;
+  overflow-y: auto;
+}
+</style>

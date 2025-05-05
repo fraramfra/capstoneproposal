@@ -104,23 +104,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#topic-filtering" id="toc-topic-filtering" class="nav-link active" data-scroll-target="#topic-filtering">Topic Filtering</a></li>
-  <li><a href="#librarypackage-filtering" id="toc-librarypackage-filtering" class="nav-link" data-scroll-target="#librarypackage-filtering">Library/Package Filtering</a></li>
-  <li><a href="#historical-canadian-wildfire-data-2006-2024" id="toc-historical-canadian-wildfire-data-2006-2024" class="nav-link" data-scroll-target="#historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</a></li>
-  <li><a href="#new-dataset" id="toc-new-dataset" class="nav-link" data-scroll-target="#new-dataset">NEW DATASET</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -129,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -141,18 +130,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="topic-filtering" class="level2">
-<h2 class="anchored" data-anchor-id="topic-filtering">Topic Filtering</h2>
-<div id="tag-filters" class="tag-filter-container">
-<p><label><input type="checkbox" value="data-wrangling"> Data Wrangling</label> <label><input type="checkbox" value="r"> R</label> <label><input type="checkbox" value="python"> Python</label> <label><input type="checkbox" value="eda"> EDA</label> <label><input type="checkbox" value="classification"> Classification</label> <label><input type="checkbox" value="regression"> Regression</label> <label><input type="checkbox" value="geospatial"> Geospatial</label> <label><input type="checkbox" value="machine-learning"> Machine Learning</label> <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label> <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label> <label><input type="checkbox" value="data-visualization"> Data Visualization</label> <label><input type="checkbox" value="time-series"> Time Series</label> <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label> <label><input type="checkbox" value="na"> No Tag</label></p>
+<div class="page-layout">
+<div class="layout-container">
+<aside class="sidebar">
+<!-- Filters by Technique or Libraries/Packages -->
+<section id="code-filtering" class="level4">
+<h4 class="anchored" data-anchor-id="code-filtering">Code Filtering</h4>
+<div id="code-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="r"> R</label> <label><input type="checkbox" value="python"> Python</label></p>
 </div>
 </section>
-<section id="librarypackage-filtering" class="level2">
-<h2 class="anchored" data-anchor-id="librarypackage-filtering">Library/Package Filtering</h2>
+<section id="data-science-filtering" class="level4">
+<h4 class="anchored" data-anchor-id="data-science-filtering">Data Science Filtering</h4>
+<div id="tag-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="data-wrangling"> Data Wrangling</label> <label><input type="checkbox" value="eda"> EDA</label> <label><input type="checkbox" value="geospatial"> Geospatial</label> <label><input type="checkbox" value="data-visualization"> Data Visualization</label> <label><input type="checkbox" value="classification"> Classification</label> <label><input type="checkbox" value="regression"> Regression</label> <label><input type="checkbox" value="machine-learning"> Machine Learning</label> <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label> <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label> <label><input type="checkbox" value="time-series"> Time Series</label> <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label> <label><input type="checkbox" value="na"> Logistic Regression</label></p>
+</div>
+</section>
+<section id="librarypackage-filtering" class="level4">
+<h4 class="anchored" data-anchor-id="librarypackage-filtering">Library/Package Filtering</h4>
 <div id="library-filters" class="tag-filter-container">
 <p><label><input type="checkbox" value="dplyr"> R = dplyr</label> <label><input type="checkbox" value="ggplot2"> R = ggplot2</label> <label><input type="checkbox" value="broom"> R = broom</label> <label><input type="checkbox" value="gt"> R = gt</label> <label><input type="checkbox" value="marginaleffects"> R = marginaleffects</label></p>
 </div>
-</section>
+<button id="clear-filters">
+Clear Filters
+</button>
+</section></aside>
+<main class="main-content">
+<!-- Include Datasets -->
+
 <section id="historical-canadian-wildfire-data-2006-2024" class="level2 static-content">
 <h2 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h2>
 <p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
@@ -285,10 +290,10 @@ Wildfire Example A
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?</p>
-<p><strong>Data Science Toolkit</strong>: R, ggplot, EDA, Logistic Regression</p>
+<p><strong>Tags</strong>: data-wrangling, eda, regression, logistic-regression, r, dplyr, ggplot2, broom, gt, marginaleffects</p>
 <strong>Developer</strong>: Azin Piran
 <p></p>
-<p><a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire.html" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a></p>
+<p><a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire_exA.html" class="btn btn-outline-dark">Notebook</a> <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a></p>
 </div>
 <div class="grid-item" data-tags="na">
 <img src="img/dataset.png" width="20px" height="20px">
@@ -297,7 +302,7 @@ Wildfire Example B
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: Description.</p>
-<p><strong>Data Science Toolkit</strong>: TBD</p>
+<p><strong>Tags</strong>: TBD</p>
 <strong>Developer</strong>: TBD
 <p></p>
 <p><a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a> <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a></p>
@@ -421,7 +426,7 @@ Dataset Example A
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: TBD</p>
-<p><strong>Data Science Toolkit</strong>: TBD</p>
+<p><strong>Tags</strong>: TBD</p>
 <strong>Developer</strong>: TBD
 <p></p>
 <p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
@@ -433,7 +438,7 @@ Dataset Example B
 </h3>
 <p>
 </p><p><strong>Inquiry</strong>: TBD</p>
-<p><strong>Data Science Toolkit</strong>: TBD</p>
+<p><strong>Tags</strong>: TBD</p>
 <strong>Developer</strong>: TBD
 <p></p>
 <p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
@@ -456,11 +461,16 @@ Dataset Example C
 <p>Attribution: TBD</p>
 </blockquote>
 </div>
+</main>
+</div>
+</div>
+<!-- Script for Filtering Cards -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
   const gridItems = document.querySelectorAll(".grid-item");
   const staticContentSections = document.querySelectorAll(".static-content");
+  const clearButton = document.getElementById("clear-filters");
 
   function filterItems() {
     const selectedTags = Array.from(checkboxes)
@@ -471,7 +481,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     gridItems.forEach(item => {
       const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
-      const matches = selectedTags.some(tag => tags.includes(tag));
+      //const matches = selectedTags.some(tag => tags.includes(tag)); //OR Filter
+      const matches = selectedTags.every(tag => tags.includes(tag)); //AND Filter
       item.style.display = (!filteringActive || matches) ? "block" : "none";
     });
 
@@ -481,6 +492,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
+
+  clearButton.addEventListener("click", function () {
+    checkboxes.forEach(cb => cb.checked = false);
+    filterItems();
+  });
+  
 });
 </script>
 

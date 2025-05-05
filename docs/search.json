@@ -81,35 +81,21 @@
     "href": "datasets.html",
     "title": "Dataset Descriptions",
     "section": "",
-    "text": "Data Wrangling  R  Python  EDA  Classification  Regression  Geospatial  Machine Learning  Supervised Learning Unsupervised Learning  Data Visualization  Time Series  Logistic Regression  No Tag"
-  },
-  {
-    "objectID": "datasets.html#topic-filtering",
-    "href": "datasets.html#topic-filtering",
-    "title": "Dataset Descriptions",
-    "section": "",
-    "text": "Data Wrangling  R  Python  EDA  Classification  Regression  Geospatial  Machine Learning  Supervised Learning Unsupervised Learning  Data Visualization  Time Series  Logistic Regression  No Tag"
-  },
-  {
-    "objectID": "datasets.html#librarypackage-filtering",
-    "href": "datasets.html#librarypackage-filtering",
-    "title": "Dataset Descriptions",
-    "section": "Library/Package Filtering",
-    "text": "Library/Package Filtering\n\n R = dplyr  R = ggplot2  R = broom  R = gt  R = marginaleffects"
+    "text": "R  Python\n\n\n\n\n\n Data Wrangling  EDA  Geospatial  Data Visualization  Classification  Regression  Machine Learning  Supervised Learning Unsupervised Learning  Time Series  Logistic Regression  Logistic Regression\n\n\n\n\n\n R = dplyr  R = ggplot2  R = broom  R = gt  R = marginaleffects\n\n\nClear Filters\n\n\n\n\n\n\n\nDataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.\n\n Download CSV \n\n\n\nCSV Name\n\n\nwildfire.csv\n\n\nDataset Characteristics\n\n\nMultivariate\n\n\nSubject Area\n\n\nClimate Change\n\n\nAssociated Tasks\n\n\nClassification, Regression, Time Series, Geospatial Analysis\n\n\nFeature Type\n\n\nCategorical, Integer\n\n\nInstances\n\n\n26551 records\n\n\nFeatures\n\n\n50\n\n\nHas Missing Values?\n\n\nYes\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nASSESSMENT_HECTARES\n\n\nFeature\n\n\nFloat\n\n\nFire Size\n\n\nHectares\n\n\nNo\n\n\n\n\nTRUE_CAUSE\n\n\nFeature\n\n\nCategorical\n\n\nInsufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals\n\n\n\n\nNo\n\n\n\n\n\n\n\n\n\n\n\nInquiry: Can we identify the environmental and human factors most associated with large wildfires (&gt;10 hectares)?\nTags: data-wrangling, eda, regression, logistic-regression, r, dplyr, ggplot2, broom, gt, marginaleffects\nDeveloper: Azin Piran\n\nNotebook GitHub\n\n\n\n\n\nInquiry: Description.\nTags: TBD\nDeveloper: TBD\n\nDisabled Disabled\n\n\n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024.\n\n\n\n\nDataset description\n\n Download CSV \n\n\n\nCSV Name\n\n\nTBD\n\n\nDataset Characteristics\n\n\nTBD\n\n\nSubject Area\n\n\nTBD\n\n\nAssociated Tasks\n\n\nTBD\n\n\nFeature Type\n\n\nTBD\n\n\nInstances\n\n\nTBD\n\n\nFeatures\n\n\nTBD\n\n\nHas Missing Values?\n\n\nTBD\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\nInquiry: TBD\nTags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nTags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nData Science Toolkit: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\nAttribution: TBD"
   },
   {
     "objectID": "datasets.html#historical-canadian-wildfire-data-2006-2024",
     "href": "datasets.html#historical-canadian-wildfire-data-2006-2024",
     "title": "Dataset Descriptions",
-    "section": "Historical Canadian Wildfire Data (2006-2024)",
-    "text": "Historical Canadian Wildfire Data (2006-2024)\nDataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.\n\n Download CSV \n\n\n\nCSV Name\n\n\nwildfire.csv\n\n\nDataset Characteristics\n\n\nMultivariate\n\n\nSubject Area\n\n\nClimate Change\n\n\nAssociated Tasks\n\n\nClassification, Regression, Time Series, Geospatial Analysis\n\n\nFeature Type\n\n\nCategorical, Integer\n\n\nInstances\n\n\n26551 records\n\n\nFeatures\n\n\n50\n\n\nHas Missing Values?\n\n\nYes\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nASSESSMENT_HECTARES\n\n\nFeature\n\n\nFloat\n\n\nFire Size\n\n\nHectares\n\n\nNo\n\n\n\n\nTRUE_CAUSE\n\n\nFeature\n\n\nCategorical\n\n\nInsufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals\n\n\n\n\nNo"
+    "section": "",
+    "text": "Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.\n\n Download CSV \n\n\n\nCSV Name\n\n\nwildfire.csv\n\n\nDataset Characteristics\n\n\nMultivariate\n\n\nSubject Area\n\n\nClimate Change\n\n\nAssociated Tasks\n\n\nClassification, Regression, Time Series, Geospatial Analysis\n\n\nFeature Type\n\n\nCategorical, Integer\n\n\nInstances\n\n\n26551 records\n\n\nFeatures\n\n\n50\n\n\nHas Missing Values?\n\n\nYes\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nASSESSMENT_HECTARES\n\n\nFeature\n\n\nFloat\n\n\nFire Size\n\n\nHectares\n\n\nNo\n\n\n\n\nTRUE_CAUSE\n\n\nFeature\n\n\nCategorical\n\n\nInsufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals\n\n\n\n\nNo"
   },
   {
     "objectID": "datasets.html#new-dataset",
     "href": "datasets.html#new-dataset",
     "title": "Dataset Descriptions",
-    "section": "NEW DATASET",
-    "text": "NEW DATASET\nDataset description\n\n Download CSV \n\n\n\nCSV Name\n\n\nTBD\n\n\nDataset Characteristics\n\n\nTBD\n\n\nSubject Area\n\n\nTBD\n\n\nAssociated Tasks\n\n\nTBD\n\n\nFeature Type\n\n\nTBD\n\n\nInstances\n\n\nTBD\n\n\nFeatures\n\n\nTBD\n\n\nHas Missing Values?\n\n\nTBD\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD"
+    "section": "",
+    "text": "Dataset description\n\n Download CSV \n\n\n\nCSV Name\n\n\nTBD\n\n\nDataset Characteristics\n\n\nTBD\n\n\nSubject Area\n\n\nTBD\n\n\nAssociated Tasks\n\n\nTBD\n\n\nFeature Type\n\n\nTBD\n\n\nInstances\n\n\nTBD\n\n\nFeatures\n\n\nTBD\n\n\nHas Missing Values?\n\n\nTBD\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD"
   },
   {
     "objectID": "notebooks/notebook_py.html",
