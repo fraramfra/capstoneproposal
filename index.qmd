@@ -2,29 +2,45 @@
 title: "Diverse Data Repository for Data Science Education"
 ---
 
-## Problem
-Instructors struggle to integrate equity, diversity, and inclusion topics into data science education due to limited resources and inclusive datasets. As a result, students may miss opportunities to engage with real-world social issues.
+This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.
 
-## Purpose
-This website containes the documentation related to a curated R data package and EDI-focused datasets and teaching examples, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects.
+## R Package
+
+TBD - View on [CRAN]()
 
 ## Download the Datasets 
 
 {{< include downloads/_dl_wildfire.qmd >}}
 
-## R Package:
+## More Information
 
-R Package CRAN
+#### Links
 
-## Contact Information
-### Owners
+- Browse [Source Code](https://github.com/katieburak/diverse-data-package)
 
-[Katie Burak PhD](https://github.com/katieburak)
+- Report a [Bug](https://github.com/katieburak/diverse-data-package/issues)
 
-### Collaborators
-[Francisco Ramirez](https://github.com/fraramfra)
+#### License
 
-[Azin Piran](https://github.com/AzinPiran)
+- TBD
 
-[Siddarth Subrahmanian](https://github.com/siddart-1)
+#### Citation
 
+- Citing this [R Package](https://fraramfra.github.io/capstoneproposal/citation.html/)
+
+#### Developers
+
+###### Owners
+
+- [Katie Burak PhD](https://github.com/katieburak)
+
+###### Collaborators
+- [Francisco Ramirez](https://github.com/fraramfra)
+
+- [Azin Piran](https://github.com/AzinPiran)
+
+- [Siddarth Subrahmanian](https://github.com/siddart-1)
+
+#### Dev Status
+
+TBD - CRAN Flag
