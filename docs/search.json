@@ -37,28 +37,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Diverse Data Repository for Data Science Education",
+    "title": "Diverse Data Hub",
     "section": "",
-    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets."
+    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
+  },
+  {
+    "objectID": "index.html#diverse-data-repository-for-data-science-education",
+    "href": "index.html#diverse-data-repository-for-data-science-education",
+    "title": "Diverse Data Hub",
+    "section": "",
+    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
   },
   {
     "objectID": "index.html#r-package",
     "href": "index.html#r-package",
-    "title": "Diverse Data Repository for Data Science Education",
+    "title": "Diverse Data Hub",
     "section": "R Package",
     "text": "R Package\nTBD - View on CRAN"
   },
   {
     "objectID": "index.html#download-the-datasets",
     "href": "index.html#download-the-datasets",
-    "title": "Diverse Data Repository for Data Science Education",
+    "title": "Diverse Data Hub",
     "section": "Download the Datasets",
     "text": "Download the Datasets\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024."
   },
   {
     "objectID": "index.html#more-information",
     "href": "index.html#more-information",
-    "title": "Diverse Data Repository for Data Science Education",
+    "title": "Diverse Data Hub",
     "section": "More Information",
     "text": "More Information\n\nPackage Code\n\nBrowse Source Code\nReport a Bug\n\n\n\nLicense\n\nTBD\n\n\n\nCitation\n\nCiting this R Package\n\n\n\nDevelopers\n\nOwners\n\nKatie Burak PhD\n\n\n\nCollaborators\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian\n\n\n\n\nDev Status\nTBD - CRAN Flag"
   },

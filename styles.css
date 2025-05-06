@@ -187,7 +187,6 @@ Clear Filters button
 Datasets Page Layout
 */
 
-<style>
 html, body {
   margin: 0;
   padding: 00;
@@ -211,4 +210,39 @@ html, body {
   margin: 0;
   overflow-y: auto;
 }
-</style>
+
+/*
+Banner and Banner Button
+*/
+
+.hero-banner {
+  background: linear-gradient(
+    #66c49b,
+    #ffffff
+  );
+  background-size: cover;
+  background-position: center;
+  color: black;
+  padding: 2rem 2rem;
+  text-align: center;
+  border-radius: 50px;
+  margin-bottom: 2rem;
+}
+
+.hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-banner p {
+  font-size: 1.25rem;
+}
+
+.hero-banner .btn {
+  margin-top: 1rem;
+  background-color: #66c49b;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
