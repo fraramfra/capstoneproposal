@@ -1,4 +1,4 @@
-### Historical Canadian Wildfire Data (2006-2024)
+#### Historical Canadian Wildfire Data (2006-2024)
 
 <div class="button-container">
   <a href="notebooks/datasets/wildfire.csv" download class="download-button">

@@ -66,7 +66,11 @@ Dataset including information on wildfires in the province of Alberta from 2006 
   <p>
 <strong>Inquiry</strong>: Can we identify the environmental and human factors most associated with large wildfires (>10 hectares)?
 
-<strong>Tags</strong>: data-wrangling, eda, regression, logistic-regression, r, dplyr, ggplot2, broom, gt, marginaleffects
+<strong>Code Tags</strong>: r
+
+<strong>Data Science Tags</strong>: data-wrangling, eda, regression, logistic-regression
+
+<strong>Library Tags</strong>: dplyr, ggplot2, broom, gt, marginaleffects
 
 <strong>Developer</strong>: Azin Piran
 </p>
@@ -80,7 +84,11 @@ Dataset including information on wildfires in the province of Alberta from 2006 
   <p>
 <strong>Inquiry</strong>: Description.
 
-<strong>Tags</strong>: TBD
+<strong>Code Tags</strong>: TBD
+
+<strong>Data Science Tags</strong>: TBD
+
+<strong>Library Tags</strong>: TBD
 
 <strong>Developer</strong>: TBD
 </p>

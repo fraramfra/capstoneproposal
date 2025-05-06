@@ -58,7 +58,11 @@ Dataset description
   <p>
 <strong>Inquiry</strong>: TBD
 
-<strong>Tags</strong>: TBD
+<strong>Code Tags</strong>: TBD
+
+<strong>Data Science Tags</strong>: TBD
+
+<strong>Library Tags</strong>: TBD
 
 <strong>Developer</strong>: TBD
 </p>
@@ -73,7 +77,11 @@ Dataset description
   <p>
 <strong>Inquiry</strong>: TBD
 
-<strong>Tags</strong>: TBD
+<strong>Code Tags</strong>: TBD
+
+<strong>Data Science Tags</strong>: TBD
+
+<strong>Library Tags</strong>: TBD
 
 <strong>Developer</strong>: TBD
 </p>
@@ -88,7 +96,11 @@ Dataset description
   <p>
 <strong>Inquiry</strong>: TBD
 
-<strong>Data Science Toolkit</strong>: TBD
+<strong>Code Tags</strong>: TBD
+
+<strong>Data Science Tags</strong>: TBD
+
+<strong>Library Tags</strong>: TBD
 
 <strong>Developer</strong>: TBD
 </p>
