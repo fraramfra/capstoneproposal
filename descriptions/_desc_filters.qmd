@@ -19,7 +19,7 @@
   <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label>
   <label><input type="checkbox" value="time-series"> Time Series</label>
   <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label>
-  <label><input type="checkbox" value="na"> Logistic Regression</label>
+  <label><input type="checkbox" value="na"> NA</label>
 </div>
 
 #### Library/Package Filtering
