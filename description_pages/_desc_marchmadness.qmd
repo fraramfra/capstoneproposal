@@ -1,0 +1,269 @@
+## Women's March Madness History
+
+::: {.static-content}
+
+Dataset contains data for every team that has participated in the NCAA Division I Women’s Basketball Tournament since it began in 1982. Every school is shown with its seed, conference record (when available), regular-season record, tournament record and full season record, including winning percentages. All data is from the NCAA. This dataset contains the data behind the story [The Rise and Fall Of Women's NCAA Tournament Dynasties](https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/).
+
+<div class="button-container">
+  <a href="datasets/womens-march-madness-clean.csv" download class="download-button">
+    Download CSV
+  </a>
+</div>
+
+<div class="description-grid">
+
+  <div class="field-label">CSV Name</div><div class="field-value">womens-march-madness-clean.csv</div>
+  <div class="field-label">Dataset Characteristics</div><div class="field-value">Multivariate</div>
+  <div class="field-label">Subject Area</div><div class="field-value">Women In Sports</div>
+  <div class="field-label">Associated Tasks</div><div class="field-value">Regression</div>
+  <div class="field-label">Feature Type</div><div class="field-value">Categorical, Integer, Float</div>
+  <div class="field-label">Instances</div><div class="field-value">2092</div>
+  <div class="field-label">Features</div><div class="field-value">20</div>
+  <div class="field-label">Has Missing Values?</div><div class="field-value">Yes</div>
+
+</div>
+
+<div class="table-container">
+  <table class="styled-table">
+    <thead>
+      <tr>
+        <th>Variable Name</th>
+        <th>Role</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Units</th>
+        <th>Missing Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>year</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Year</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>school</td>
+        <td>Feature</td>
+        <td>Categorical</td>
+        <td>School</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>seed</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Seed. The 0 seeding designation in 1983 notes the eight teams that played an opening-round game to become the No. 8 seed in each region.</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>conference</td>
+        <td>Feature</td>
+        <td>Categorical</td>
+        <td>Conference</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>conf_wins</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Conference Wins</td>
+        <td>-</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>conf_losses</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Conference Losses</td>
+        <td>-</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>conf_wins_pct</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Conference Win Percentage</td>
+        <td>-</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>conf_rank</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Place in Conference</td>
+        <td>-</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>division</td>
+        <td>Feature</td>
+        <td>Categorical</td>
+        <td>Conference Division</td>
+        <td>-</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>reg_wins</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Regional Wins</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>reg_losses</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Regional Losses</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>reg_wins_pct</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Regional Win Percentage</td>
+        <td>%</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>bid</td>
+        <td>Feature</td>
+        <td>Categorical</td>
+        <td>Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid. ['at-large' 'auto']</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>first_game_at_home</td>
+        <td>Feature</td>
+        <td>Categorical</td>
+        <td>Whether the school played its first-round tournament games on its home court. ['Y' 'N']</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>tourney_wins</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Tourney Wins</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>tourney_losses</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Tourney Losses</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>tourney_finish</td>
+        <td>Target</td>
+        <td>Categorical</td>
+        <td>Ordered categories: ['opening_round_loss' < 'first_round_loss' < 'second_round_loss' < 'top_16_loss' < 'top_8_loss' < 'top_4_loss' < 'top_2_loss' < 'champ']</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>total_wins</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Total Wins</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>total_losses</td>
+        <td>Feature</td>
+        <td>int64</td>
+        <td>Total Losses</td>
+        <td>-</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>total_wins_pct</td>
+        <td>Feature</td>
+        <td>float64</td>
+        <td>Total Win Percentage</td>
+        <td>%</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+:::
+
+:::{.grid-container}
+
+<div class="grid-item" data-tags="notebook,r,eda,data-visualization,regression,hypothesis-testing">
+  <img src="img/dataset.png" width="20px" height="20px">
+  <h3>Women's March Madness Example A</h3>
+  <p>
+<strong>Inquiry</strong>: Does seed matter?
+
+<strong>Code Tags</strong>: r
+
+<strong>Data Science Tags</strong>: eda, data-visualization, regression, hypothesis-testing
+
+<strong>Library Tags</strong>: TBD
+
+<strong>Developer</strong>: Francisco Ramirez
+</p>
+  <a href="" class="btn btn-outline-dark">Notebook</a>
+  <a href="" class="btn btn-outline-dark">GitHub</a>
+</div>
+
+:::
+
+::: {.static-content}
+
+> Attribution: Data sourced from FiveThirtyEight's NCAA Women's Basketball Tournament dataset, available under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Original dataset: [FiveThirtyEight GitHub Repository](https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament). Story: [Louisiana Tech Was the UConn of the '80s](https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/).
+
+:::

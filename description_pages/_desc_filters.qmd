@@ -24,6 +24,7 @@
   <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label>
   <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label>
   <label><input type="checkbox" value="time-series"> Time Series</label>
+  <label><input type="checkbox" value="hypothesis-testing"> Hypothesis Testing</label>
   <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label>
   <label><input type="checkbox" value="na"> NA</label>
 </div>
