@@ -1,0 +1,12 @@
+{
+  "hash": "db2a3783f41cc2b35e4862c3f34802b6",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Python Page With Code\"\nformat: html\njupyter: python3\n---\n\n::: {#0ae9f175 .cell execution_count=1}\n``` {.python .cell-code}\nimport matplotlib.pyplot as plt\n\nplt.plot([1, 2, 3], [4, 9, 5])\nplt.title(\"Simple Python Plot\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](notebook_files/figure-html/cell-2-output-1.png){width=558 height=431}\n:::\n:::\n\n\n<iframe src=\"notebooks/wildfire.html\" width=\"100%\" height=\"500px\" style=\"border: none;\"></iframe>\n\n",
+    "supporting": [
+      "notebook_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
