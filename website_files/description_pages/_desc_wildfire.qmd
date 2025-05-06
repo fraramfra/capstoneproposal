@@ -74,7 +74,7 @@ Dataset including information on wildfires in the province of Alberta from 2006 
 
 <strong>Developer</strong>: Azin Piran
 </p>
-  <a href="https://fraramfra.github.io/capstoneproposal/notebooks/wildfire_exA.html" class="btn btn-outline-dark">Notebook</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/website_files/notebooks/wildfire_exA.html" class="btn btn-outline-dark">Notebook</a>
   <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a>
 </div>
 
