@@ -52,7 +52,7 @@ Dataset description
 
 :::{.grid-container}
 
-<div class="grid-item" data-tags="na">
+<div class="grid-item" data-tags="notebook,na">
   <img src="img/dataset.png" width="20px" height="20px">
   <h3>Dataset Example A</h3>
   <p>
@@ -67,7 +67,7 @@ Dataset description
 </div>
 
 
-<div class="grid-item" data-tags="na">
+<div class="grid-item" data-tags="notebook,na">
   <img src="img/dataset.png" width="20px" height="20px">
   <h3>Dataset Example B</h3>
   <p>
@@ -82,7 +82,7 @@ Dataset description
 </div>
 
 
-<div class="grid-item" data-tags="na">
+<div class="grid-item" data-tags="notebook,na">
   <img src="img/dataset.png" width="20px" height="20px">
   <h3>Dataset Example C</h3>
   <p>
