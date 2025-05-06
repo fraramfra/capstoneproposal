@@ -78,24 +78,6 @@ Dataset including information on wildfires in the province of Alberta from 2006 
   <a href="https://github.com/UBC-MDS/diverse-data-hub-dev/tree/main/Analysis/wildfire" class="btn btn-outline-dark">GitHub</a>
 </div>
 
-<div class="grid-item" data-tags="notebook,na">
-  <img src="img/dataset.png" width="20px" height="20px">
-  <h3>Wildfire Example B</h3>
-  <p>
-<strong>Inquiry</strong>: Description.
-
-<strong>Code Tags</strong>: TBD
-
-<strong>Data Science Tags</strong>: TBD
-
-<strong>Library Tags</strong>: TBD
-
-<strong>Developer</strong>: TBD
-</p>
-  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a>
-  <a href="https://fraramfra.github.io/capstoneproposal/" class="btn btn-outline-dark">Disabled</a>
-</div>
-
 :::
 
 ::: {.static-content}

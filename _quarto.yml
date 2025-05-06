@@ -6,14 +6,14 @@ website:
   title: "Diverse Data Hub"
   navbar:
     left:
-      - href: index.qmd
+      - href: website_files/index.qmd
         text: Welcome
-      - datasets.qmd
+      - website_files/datasets.qmd
 
 format:
   html:
     theme: minty
-    css: styles.css
+    css: website_files/styles.css
     toc: false
     page-layout: full
     toc-location: right
