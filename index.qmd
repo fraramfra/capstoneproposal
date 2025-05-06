@@ -12,7 +12,7 @@ TBD - View on [CRAN]()
 
 ## Download the Datasets 
 
-{{< include downloads/_dl_wildfire.qmd >}}
+{{< include download_pages/_dl_wildfire.qmd >}}
 
 ## More Information
 

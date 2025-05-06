@@ -8,13 +8,13 @@ title: "Dataset Descriptions"
 
   <aside class="sidebar">
     <!-- Filters by Technique or Libraries/Packages -->
-    {{< include descriptions/_desc_filters.qmd >}}
+    {{< include description_pages/_desc_filters.qmd >}}
   </aside>
 
   <main class="main-content">
     <!-- Include Datasets -->
-    {{< include descriptions/_desc_wildfire.qmd >}}
-    {{< include descriptions/_desc_new.qmd >}}
+    {{< include description_pages/_desc_wildfire.qmd >}}
+    {{< include description_pages/_desc_new.qmd >}}
   </main>
 
 </div>
@@ -22,4 +22,4 @@ title: "Dataset Descriptions"
 :::
 
 <!-- Script for Filtering Cards -->
-{{< include descriptions/_desc_script.qmd >}}
+{{< include description_pages/_desc_script.qmd >}}

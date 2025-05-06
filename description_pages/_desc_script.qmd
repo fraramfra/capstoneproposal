@@ -1,0 +1,35 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
+  const gridItems = document.querySelectorAll(".grid-item");
+  const staticContentSections = document.querySelectorAll(".static-content");
+  const clearButton = document.getElementById("clear-filters");
+
+  function filterItems() {
+    const selectedTags = Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
+
+    const filteringActive = selectedTags.length > 0;
+
+    gridItems.forEach(item => {
+      const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
+      //const matches = selectedTags.some(tag => tags.includes(tag)); //OR Filter
+      const matches = selectedTags.every(tag => tags.includes(tag)); //AND Filter
+      item.style.display = (!filteringActive || matches) ? "block" : "none";
+    });
+
+    staticContentSections.forEach(section => {
+      section.style.display = filteringActive ? "none" : "block";
+    });
+  }
+
+  checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
+
+  clearButton.addEventListener("click", function () {
+    checkboxes.forEach(cb => cb.checked = false);
+    filterItems();
+  });
+  
+});
+</script>
