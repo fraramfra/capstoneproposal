@@ -35,62 +35,6 @@
     "text": "library(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 37 rows containing non-finite outside the scale range\n(`stat_smooth()`).\n\n\nWarning: Removed 37 rows containing missing values or values outside the scale range\n(`geom_point()`)."
   },
   {
-    "objectID": "website_files/index.html",
-    "href": "website_files/index.html",
-    "title": "Diverse Data Hub",
-    "section": "",
-    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
-  },
-  {
-    "objectID": "website_files/index.html#diverse-data-repository-for-data-science-education",
-    "href": "website_files/index.html#diverse-data-repository-for-data-science-education",
-    "title": "Diverse Data Hub",
-    "section": "",
-    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
-  },
-  {
-    "objectID": "website_files/index.html#r-package",
-    "href": "website_files/index.html#r-package",
-    "title": "Diverse Data Hub",
-    "section": "R Package",
-    "text": "R Package\nTBD - View on CRAN"
-  },
-  {
-    "objectID": "website_files/index.html#download-the-datasets",
-    "href": "website_files/index.html#download-the-datasets",
-    "title": "Diverse Data Hub",
-    "section": "Download the Datasets",
-    "text": "Download the Datasets\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024.\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\n\nAttribution: Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset, available under a Creative Commons Attribution 4.0 International License. Original dataset: FiveThirtyEight GitHub Repository. Story: Louisiana Tech Was the UConn of the ’80s."
-  },
-  {
-    "objectID": "website_files/index.html#more-information",
-    "href": "website_files/index.html#more-information",
-    "title": "Diverse Data Hub",
-    "section": "More Information",
-    "text": "More Information\n\nPackage Code\n\nBrowse Source Code\nReport a Bug\n\n\n\nLicense\n\nTBD\n\n\n\nCitation\n\nCiting this R Package\n\n\n\nDevelopers\n\nOwners\n\nKatie Burak PhD\n\n\n\nCollaborators\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian\n\n\n\n\nDev Status\nTBD - CRAN Flag"
-  },
-  {
-    "objectID": "website_files/citation.html",
-    "href": "website_files/citation.html",
-    "title": "Authors and Citation",
-    "section": "",
-    "text": "Katie Burak PhD\nCopyright Holder\n\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian\n\n\n\n\nBurak K (2025). packagenameTBD: Diverse Dataset Hub. R package version X.X.X, https://github.com/katieburak/diverse-data-package"
-  },
-  {
-    "objectID": "website_files/citation.html#owners",
-    "href": "website_files/citation.html#owners",
-    "title": "Authors and Citation",
-    "section": "",
-    "text": "Katie Burak PhD\nCopyright Holder\n\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian"
-  },
-  {
-    "objectID": "website_files/citation.html#citation",
-    "href": "website_files/citation.html#citation",
-    "title": "Authors and Citation",
-    "section": "",
-    "text": "Burak K (2025). packagenameTBD: Diverse Dataset Hub. R package version X.X.X, https://github.com/katieburak/diverse-data-package"
-  },
-  {
     "objectID": "website_files/datasets.html",
     "href": "website_files/datasets.html",
     "title": "Dataset Descriptions",
@@ -117,6 +61,62 @@
     "title": "Dataset Descriptions",
     "section": "",
     "text": "Dataset description\n\n Download CSV \n\n\n\nCSV Name\n\n\nTBD\n\n\nDataset Characteristics\n\n\nTBD\n\n\nSubject Area\n\n\nTBD\n\n\nAssociated Tasks\n\n\nTBD\n\n\nFeature Type\n\n\nTBD\n\n\nInstances\n\n\nTBD\n\n\nFeatures\n\n\nTBD\n\n\nHas Missing Values?\n\n\nTBD\n\n\n\n\n\n\n\nVariable Name\n\n\nRole\n\n\nType\n\n\nDescription\n\n\nUnits\n\n\nMissing Values\n\n\n\n\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\nTBD\n\n\n\n\n\n\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\nAttribution: TBD"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Diverse Data Hub",
+    "section": "",
+    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
+  },
+  {
+    "objectID": "index.html#diverse-data-repository-for-data-science-education",
+    "href": "index.html#diverse-data-repository-for-data-science-education",
+    "title": "Diverse Data Hub",
+    "section": "",
+    "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
+  },
+  {
+    "objectID": "index.html#r-package",
+    "href": "index.html#r-package",
+    "title": "Diverse Data Hub",
+    "section": "R Package",
+    "text": "R Package\nTBD - View on CRAN"
+  },
+  {
+    "objectID": "index.html#download-the-datasets",
+    "href": "index.html#download-the-datasets",
+    "title": "Diverse Data Hub",
+    "section": "Download the Datasets",
+    "text": "Download the Datasets\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\n\nAttribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an Open Government Licence - Alberta. Original dataset: Historical wildfire data: 2006-2024.\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\n\nAttribution: Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset, available under a Creative Commons Attribution 4.0 International License. Original dataset: FiveThirtyEight GitHub Repository. Story: Louisiana Tech Was the UConn of the ’80s."
+  },
+  {
+    "objectID": "index.html#more-information",
+    "href": "index.html#more-information",
+    "title": "Diverse Data Hub",
+    "section": "More Information",
+    "text": "More Information\n\nPackage Code\n\nBrowse Source Code\nReport a Bug\n\n\n\nLicense\n\nTBD\n\n\n\nCitation\n\nCiting this R Package\n\n\n\nDevelopers\n\nOwners\n\nKatie Burak PhD\n\n\n\nCollaborators\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian\n\n\n\n\nDev Status\nTBD - CRAN Flag"
+  },
+  {
+    "objectID": "website_files/citation.html",
+    "href": "website_files/citation.html",
+    "title": "Authors and Citation",
+    "section": "",
+    "text": "Katie Burak PhD\nCopyright Holder\n\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian\n\n\n\n\nBurak K (2025). packagenameTBD: Diverse Dataset Hub. R package version X.X.X, https://github.com/katieburak/diverse-data-package"
+  },
+  {
+    "objectID": "website_files/citation.html#owners",
+    "href": "website_files/citation.html#owners",
+    "title": "Authors and Citation",
+    "section": "",
+    "text": "Katie Burak PhD\nCopyright Holder\n\n\nFrancisco Ramirez\nAzin Piran\nSiddarth Subrahmanian"
+  },
+  {
+    "objectID": "website_files/citation.html#citation",
+    "href": "website_files/citation.html#citation",
+    "title": "Authors and Citation",
+    "section": "",
+    "text": "Burak K (2025). packagenameTBD: Diverse Dataset Hub. R package version X.X.X, https://github.com/katieburak/diverse-data-package"
   },
   {
     "objectID": "website_files/notebooks/notebook_py.html",

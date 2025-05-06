@@ -3,7 +3,7 @@
 
 This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.
 
-[Get Started →](https://fraramfra.github.io/capstoneproposal/website_files/datasets){.btn .btn-primary}
+[Get Started →](https://fraramfra.github.io/capstoneproposal/website_files/datasets.html){.btn .btn-primary}
 :::
 
 ## R Package
@@ -12,8 +12,8 @@ TBD - View on [CRAN]()
 
 ## Download the Datasets 
 
-{{< include download_pages/_dl_wildfire.qmd >}}
-{{< include download_pages/_dl_marchmadness.qmd >}}
+{{< include website_files/download_pages/_dl_wildfire.qmd >}}
+{{< include website_files/download_pages/_dl_marchmadness.qmd >}}
 
 ## More Information
 
