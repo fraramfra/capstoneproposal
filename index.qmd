@@ -14,7 +14,7 @@ TBD - View on [CRAN]()
 
 ## More Information
 
-#### Links
+#### Package Code
 
 - Browse [Source Code](https://github.com/katieburak/diverse-data-package)
 
