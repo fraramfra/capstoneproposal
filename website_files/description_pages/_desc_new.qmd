@@ -1,10 +1,10 @@
 ## NEW DATASET
 
-Dataset description
-
 ::: {.static-content}
 
 <div id="new-content" style="display: none;">
+
+Dataset description
 
 <div class="button-container">
   <a href="" download class="download-button">
