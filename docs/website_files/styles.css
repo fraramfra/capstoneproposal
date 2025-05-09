@@ -263,3 +263,11 @@ Dataset Toggle
 #dataset-toggle input[type="checkbox"] {
   margin: 0.5rem 0;
 }
+
+/*
+Removing chain link icons
+*/
+
+.anchorjs-link {
+  display: none;
+}
