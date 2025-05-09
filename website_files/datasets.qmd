@@ -3,8 +3,8 @@
 <div class="layout-container">
 
   <aside class="sidebar">
-    {{< include description_pages/_desc_filters_dataset.qmd >}}
-    {{< include description_pages/_desc_filters.qmd >}}
+    {{< include description_pages/filters_dataset.qmd >}}
+    {{< include description_pages/filters.qmd >}}
   </aside>
 
   <main class="main-content">
@@ -17,4 +17,4 @@
 :::
 
 <!-- Script for Filtering Cards -->
-{{< include description_pages/_desc_script.qmd >}}
+{{< include description_pages/script.qmd >}}

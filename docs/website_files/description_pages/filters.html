@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python Page With Code – Diverse Data Hub</title>
+<title>filters – Diverse Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -145,41 +111,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Python Page With Code</h1>
+
+
+
+<section id="notebooks-by-tag" class="level3">
+<h3 class="anchored" data-anchor-id="notebooks-by-tag">Notebooks By Tag</h3>
+<section id="language-filter" class="level5">
+<h5 class="anchored" data-anchor-id="language-filter">Language Filter</h5>
+<div id="code-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="r"> R</label> <label><input type="checkbox" value="python"> Python</label></p>
 </div>
-
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div id="028f7039" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">9</span>, <span class="dv">5</span>])</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Simple Python Plot"</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="notebook_py_files/figure-html/cell-2-output-1.png" width="558" height="431" class="figure-img"></p>
-</figure>
+</section>
+<section id="technique-filter" class="level5">
+<h5 class="anchored" data-anchor-id="technique-filter">Technique Filter</h5>
+<div id="tag-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="data-wrangling"> Data Wrangling</label> <label><input type="checkbox" value="eda"> EDA</label> <label><input type="checkbox" value="geospatial"> Geospatial</label> <label><input type="checkbox" value="data-visualization"> Data Visualization</label> <label><input type="checkbox" value="classification"> Classification</label> <label><input type="checkbox" value="regression"> Regression</label> <label><input type="checkbox" value="machine-learning"> Machine Learning</label> <label><input type="checkbox" value="supervised-learning"> Supervised Learning</label> <label><input type="checkbox" value="unsupervised-learning">Unsupervised Learning</label> <label><input type="checkbox" value="time-series"> Time Series</label> <label><input type="checkbox" value="hypothesis-testing"> Hypothesis Testing</label> <label><input type="checkbox" value="logistic-regression"> Logistic Regression</label> <label><input type="checkbox" value="na"> NA</label></p>
 </div>
+</section>
+<section id="librarypackage-filter" class="level5">
+<h5 class="anchored" data-anchor-id="librarypackage-filter">Library/Package Filter</h5>
+<div id="library-filters" class="tag-filter-container">
+<p><label><input type="checkbox" value="dplyr"> R = dplyr</label> <label><input type="checkbox" value="ggplot2"> R = ggplot2</label> <label><input type="checkbox" value="broom"> R = broom</label> <label><input type="checkbox" value="gt"> R = gt</label> <label><input type="checkbox" value="marginaleffects"> R = marginaleffects</label></p>
 </div>
-</div>
+<button id="clear-filters">
+Clear Filters
+</button>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

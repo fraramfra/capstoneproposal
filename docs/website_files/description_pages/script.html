@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python Page With Code – Diverse Data Hub</title>
+<title>script – Diverse Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -145,39 +111,68 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Python Page With Code</h1>
-</div>
 
 
 
-<div class="quarto-title-meta column-page">
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
+  const datasetCheckboxes = document.querySelectorAll("#dataset-toggle input[type='checkbox']");
+  const gridItems = document.querySelectorAll(".grid-item");
+  const staticContentSections = document.querySelectorAll(".static-content");
+  const clearButton = document.getElementById("clear-filters");
 
-    
-  
-    
-  </div>
-  
+  function filterItems() {
+    const selectedTags = Array.from(checkboxes)
+      .filter(cb => cb.checked)
+      .map(cb => cb.value);
 
+    const filteringActive = selectedTags.length > 0;
 
-</header>
+    // Show/hide grid items
+    gridItems.forEach(item => {
+      const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
+      const matches = selectedTags.every(tag => tags.includes(tag));
+      item.style.display = (!filteringActive || matches) ? "block" : "none";
+    });
 
+    // Manage visibility of dataset content sections
+    datasetCheckboxes.forEach(cb => {
+      const datasetId = cb.id.replace("-checkbox", "-content");
+      const datasetContent = document.getElementById(datasetId);
 
-<div id="028f7039" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">9</span>, <span class="dv">5</span>])</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Simple Python Plot"</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="notebook_py_files/figure-html/cell-2-output-1.png" width="558" height="431" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
+      if (!datasetContent) return;
+
+      if (filteringActive) {
+        datasetContent.style.display = cb.checked ? "block" : "none";
+        staticContentSections.forEach(section => section.style.display = "none");
+      } else {
+        datasetContent.style.display = cb.checked ? "block" : "none";
+        if (cb.checked) {
+          staticContentSections.forEach(section => section.style.display = "block");
+        }
+      }
+    });
+  }
+
+  // Attach listeners to dataset checkboxes
+  datasetCheckboxes.forEach(cb => {
+    cb.addEventListener("change", filterItems);
+  });
+
+  // Attach listeners to tag filters
+  checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
+
+  // Clear button resets all filters
+  clearButton.addEventListener("click", function () {
+    checkboxes.forEach(cb => cb.checked = false);
+    filterItems();
+  });
+
+  // Initialize view
+  filterItems();
+});
+</script>
 
 
 
