@@ -152,14 +152,6 @@ Tag Filters
 }
 
 /*
-Transitions for filter
-*/
-
-.static-content, .grid-item {
-  transition: opacity 1s ease;
-}
-
-/*
 Clear Filters button
 */
 
