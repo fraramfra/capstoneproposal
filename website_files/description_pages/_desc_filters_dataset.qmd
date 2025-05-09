@@ -1,4 +1,4 @@
-#### Select to Expand
+### Select to Expand
 
 <div id="dataset-toggle">
   <label><input type="checkbox" id="wildfire-checkbox"> Wildfires</label>
