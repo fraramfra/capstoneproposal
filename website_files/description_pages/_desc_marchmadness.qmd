@@ -244,7 +244,7 @@ Dataset contains data for every team that has participated in the NCAA Division 
 
 :::{.grid-container}
 
-<div class="grid-item" data-tags="notebook,r,eda,data-visualization,regression,hypothesis-testing">
+<div class="grid-item" data-tags="r,eda,data-visualization,regression,hypothesis-testing">
   <img src="img/dataset.png" width="20px" height="20px">
   <h3>Women's March Madness Example A</h3>
   <p>

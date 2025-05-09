@@ -117,13 +117,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="page-layout">
 <div class="layout-container">
 <aside class="sidebar">
-<!-- Filters by Technique or Libraries/Packages -->
-<section id="notebooks-only" class="level4">
-<h4 class="anchored" data-anchor-id="notebooks-only">Notebooks Only</h4>
-<div id="notebook-filters" class="tag-filter-container">
-<p><label><input type="checkbox" value="notebook"> Notebooks</label></p>
+<section id="select-to-expand" class="level3">
+<h3 class="anchored" data-anchor-id="select-to-expand">Select to Expand</h3>
+<div id="dataset-toggle">
+<p><label><input type="checkbox" id="wildfire-checkbox"> Wildfires</label> <label><input type="checkbox" id="marchmadness-checkbox"> Womens March Madness</label></p>
 </div>
 </section>
+<section id="filter-notebooks-by-tag" class="level3">
+<h3 class="anchored" data-anchor-id="filter-notebooks-by-tag">2 - Filter Notebooks By Tag</h3>
 <section id="language-filter" class="level4">
 <h4 class="anchored" data-anchor-id="language-filter">Language Filter</h4>
 <div id="code-filters" class="tag-filter-container">
@@ -144,15 +145,10 @@ ul.task-list li input[type="checkbox"] {
 <button id="clear-filters">
 Clear Filters
 </button>
-</section></aside>
+</section></section></aside>
 <main class="main-content">
 
-<section id="select-to-expand" class="level3">
-<h3 class="anchored" data-anchor-id="select-to-expand">Select to Expand</h3>
-<div id="dataset-toggle">
-<p><label><input type="checkbox" id="wildfire-checkbox"> Wildfires</label> <label><input type="checkbox" id="marchmadness-checkbox"> Womens March Madness</label></p>
-</div>
-</section>
+
 <section id="historical-canadian-wildfire-data-2006-2024" class="level2">
 <h2 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h2>
 <p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
@@ -280,7 +276,7 @@ No
 </div>
 </div>
 <div class="grid-container">
-<div class="grid-item" data-tags="notebook,r,data-wrangling,eda,regression,logistic-regression,dplyr,ggplot2,broom,gt,marginaleffects">
+<div class="grid-item" data-tags="r,data-wrangling,eda,regression,logistic-regression,dplyr,ggplot2,broom,gt,marginaleffects">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
 Wildfire Example A
@@ -828,7 +824,7 @@ No
 </div>
 </div>
 <div class="grid-container">
-<div class="grid-item" data-tags="notebook,r,eda,data-visualization,regression,hypothesis-testing">
+<div class="grid-item" data-tags="r,eda,data-visualization,regression,hypothesis-testing">
 <img src="img/dataset.png" width="20px" height="20px">
 <h3 class="anchored">
 Women’s March Madness Example A
