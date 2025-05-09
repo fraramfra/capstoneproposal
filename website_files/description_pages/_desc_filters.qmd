@@ -1,13 +1,13 @@
-### 2 - Select By Tag
+#### Notbooks By Tag
 
-#### Language Filter
+##### Language Filter
 
 <div id="code-filters" class="tag-filter-container">
   <label><input type="checkbox" value="r"> R</label>
   <label><input type="checkbox" value="python"> Python</label>
 </div>
 
-#### Technique Filter
+##### Technique Filter
 
 <div id="tag-filters" class="tag-filter-container">
   <label><input type="checkbox" value="data-wrangling"> Data Wrangling</label>
@@ -25,7 +25,7 @@
   <label><input type="checkbox" value="na"> NA</label>
 </div>
 
-#### Library/Package Filter
+##### Library/Package Filter
 
 <div id="library-filters" class="tag-filter-container">
   <label><input type="checkbox" value="dplyr"> R = dplyr</label>
