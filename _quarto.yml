@@ -8,7 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Welcome
-      - website_files/datasets.qmd
+      - href: website_files/datasets.qmd
+        text: Datasets
 
 format:
   html:

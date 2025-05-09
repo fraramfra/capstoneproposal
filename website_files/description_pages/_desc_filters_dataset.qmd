@@ -1,0 +1,5 @@
+### Select to Expand
+<div id="dataset-toggle">
+  <label><input type="checkbox" id="wildfire-checkbox"> Wildfires</label>
+  <label><input type="checkbox" id="marchmadness-checkbox"> Womens March Madness</label>
+</div>

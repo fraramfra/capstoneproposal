@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dataset Descriptions – Diverse Data Hub</title>
+<title>datasets – Diverse Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../website_files/datasets.html" aria-current="page"> 
-<span class="menu-text">Dataset Descriptions</span></a>
+<span class="menu-text">Datasets</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -111,23 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Dataset Descriptions</h1>
-</div>
 
-
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <div class="page-layout">
@@ -162,12 +146,18 @@ Clear Filters
 </button>
 </section></aside>
 <main class="main-content">
-<!-- Include Datasets -->
 
+<section id="select-to-expand" class="level3">
+<h3 class="anchored" data-anchor-id="select-to-expand">Select to Expand</h3>
+<div id="dataset-toggle">
+<p><label><input type="checkbox" id="wildfire-checkbox"> Wildfires</label> <label><input type="checkbox" id="marchmadness-checkbox"> Womens March Madness</label></p>
+</div>
+</section>
 <section id="historical-canadian-wildfire-data-2006-2024" class="level2">
 <h2 class="anchored" data-anchor-id="historical-canadian-wildfire-data-2006-2024">Historical Canadian Wildfire Data (2006-2024)</h2>
-<div class="static-content">
 <p>Dataset including information on wildfires in the province of Alberta from 2006 to 2024, inclusive. Information tracked for each fire includes: cause, size, location (latitude and longitude, legal land description, and forest area), time and duration, weather conditions, staffing and physical resources used to suppress the fire, and area burned.</p>
+<div id="wildfire-content" style="display: none;">
+<div class="static-content">
 <div class="button-container">
 <p><a href="datasets/wildfire.csv" download="" class="download-button"> Download CSV </a></p>
 </div>
@@ -310,11 +300,13 @@ Wildfire Example A
 <p>Attribution: Data sourced from the Government of Alberta via the Government of Canada’s Open Government Portal, available under an <a href="https://open.alberta.ca/licence">Open Government Licence - Alberta</a>. Original dataset: <a href="https://open.canada.ca/data/en/dataset/a221e7a0-4f46-4be7-9c5a-e29de9a3447e">Historical wildfire data: 2006-2024</a>.</p>
 </blockquote>
 </div>
+</div>
 </section>
 <section id="womens-march-madness-history" class="level2">
 <h2 class="anchored" data-anchor-id="womens-march-madness-history">Women’s March Madness History</h2>
-<div class="static-content">
 <p>Dataset contains data for every team that has participated in the NCAA Division I Women’s Basketball Tournament since it began in 1982. Every school is shown with its seed, conference record (when available), regular-season record, tournament record and full season record, including winning percentages. All data is from the NCAA. This dataset contains the data behind the story <a href="https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/">The Rise and Fall Of Women’s NCAA Tournament Dynasties</a>.</p>
+<div id="marchmadness-content" style="display: none;">
+<div class="static-content">
 <div class="button-container">
 <p><a href="datasets/womens-march-madness-clean.csv" download="" class="download-button"> Download CSV </a></p>
 </div>
@@ -856,161 +848,6 @@ Women’s March Madness Example A
 <p>Attribution: Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset, available under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Original dataset: <a href="https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament">FiveThirtyEight GitHub Repository</a>. Story: <a href="https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/">Louisiana Tech Was the UConn of the ’80s</a>.</p>
 </blockquote>
 </div>
-</section>
-<section id="new-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="new-dataset">NEW DATASET</h2>
-<div class="static-content">
-<p>Dataset description</p>
-<div class="button-container">
-<p><a href="" download="" class="download-button"> Download CSV </a></p>
-</div>
-<div class="description-grid">
-<div class="field-label">
-CSV Name
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Dataset Characteristics
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Subject Area
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Associated Tasks
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Feature Type
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Instances
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Features
-</div>
-<div class="field-value">
-TBD
-</div>
-<div class="field-label">
-Has Missing Values?
-</div>
-<div class="field-value">
-TBD
-</div>
-</div>
-<div class="table-container">
-<table class="styled-table">
-<thead>
-<tr>
-<th>
-Variable Name
-</th>
-<th>
-Role
-</th>
-<th>
-Type
-</th>
-<th>
-Description
-</th>
-<th>
-Units
-</th>
-<th>
-Missing Values
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-TBD
-</td>
-<td>
-TBD
-</td>
-<td>
-TBD
-</td>
-<td>
-TBD
-</td>
-<td>
-TBD
-</td>
-<td>
-TBD
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="grid-container">
-<div class="grid-item" data-tags="notebook,na">
-<img src="img/dataset.png" width="20px" height="20px">
-<h3 class="anchored">
-Dataset Example A
-</h3>
-<p>
-</p><p><strong>Inquiry</strong>: TBD</p>
-<p><strong>Code Tags</strong>: TBD</p>
-<p><strong>Data Science Tags</strong>: TBD</p>
-<p><strong>Library Tags</strong>: TBD</p>
-<strong>Developer</strong>: TBD
-<p></p>
-<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
-</div>
-<div class="grid-item" data-tags="notebook,na">
-<img src="img/dataset.png" width="20px" height="20px">
-<h3 class="anchored">
-Dataset Example B
-</h3>
-<p>
-</p><p><strong>Inquiry</strong>: TBD</p>
-<p><strong>Code Tags</strong>: TBD</p>
-<p><strong>Data Science Tags</strong>: TBD</p>
-<p><strong>Library Tags</strong>: TBD</p>
-<strong>Developer</strong>: TBD
-<p></p>
-<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
-</div>
-<div class="grid-item" data-tags="notebook,na">
-<img src="img/dataset.png" width="20px" height="20px">
-<h3 class="anchored">
-Dataset Example C
-</h3>
-<p>
-</p><p><strong>Inquiry</strong>: TBD</p>
-<p><strong>Code Tags</strong>: TBD</p>
-<p><strong>Data Science Tags</strong>: TBD</p>
-<p><strong>Library Tags</strong>: TBD</p>
-<strong>Developer</strong>: TBD
-<p></p>
-<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
-</div>
-</div>
-<div class="static-content">
-<blockquote class="blockquote">
-<p>Attribution: TBD</p>
-</blockquote>
 </div>
 </section></main>
 
@@ -1020,6 +857,7 @@ Dataset Example C
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const checkboxes = document.querySelectorAll(".tag-filter-container input[type='checkbox']");
+  const datasetCheckboxes = document.querySelectorAll("#dataset-toggle input[type='checkbox']");
   const gridItems = document.querySelectorAll(".grid-item");
   const staticContentSections = document.querySelectorAll(".static-content");
   const clearButton = document.getElementById("clear-filters");
@@ -1031,25 +869,48 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const filteringActive = selectedTags.length > 0;
 
+    // Show/hide grid items
     gridItems.forEach(item => {
       const tags = item.dataset.tags ? item.dataset.tags.split(",") : [];
-      //const matches = selectedTags.some(tag => tags.includes(tag)); //OR Filter
-      const matches = selectedTags.every(tag => tags.includes(tag)); //AND Filter
+      const matches = selectedTags.every(tag => tags.includes(tag));
       item.style.display = (!filteringActive || matches) ? "block" : "none";
     });
 
-    staticContentSections.forEach(section => {
-      section.style.display = filteringActive ? "none" : "block";
+    // Manage visibility of dataset content sections
+    datasetCheckboxes.forEach(cb => {
+      const datasetId = cb.id.replace("-checkbox", "-content");
+      const datasetContent = document.getElementById(datasetId);
+
+      if (!datasetContent) return;
+
+      if (filteringActive) {
+        datasetContent.style.display = cb.checked ? "block" : "none";
+        staticContentSections.forEach(section => section.style.display = "none");
+      } else {
+        datasetContent.style.display = cb.checked ? "block" : "none";
+        if (cb.checked) {
+          staticContentSections.forEach(section => section.style.display = "block");
+        }
+      }
     });
   }
 
+  // Attach listeners to dataset checkboxes
+  datasetCheckboxes.forEach(cb => {
+    cb.addEventListener("change", filterItems);
+  });
+
+  // Attach listeners to tag filters
   checkboxes.forEach(cb => cb.addEventListener("change", filterItems));
 
+  // Clear button resets all filters
   clearButton.addEventListener("click", function () {
     checkboxes.forEach(cb => cb.checked = false);
     filterItems();
   });
-  
+
+  // Initialize view
+  filterItems();
 });
 </script>
 

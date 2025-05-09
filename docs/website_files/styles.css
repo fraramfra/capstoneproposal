@@ -238,3 +238,28 @@ Banner and Banner Button
   font-weight: bold;
   border-radius: 10px;
 }
+
+/*
+Dataset Toggle
+*/
+
+#dataset-toggle {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 5px solid #66c49b;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#dataset-toggle label {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+#dataset-toggle input[type="checkbox"] {
+  margin: 0.5rem 0;
+}

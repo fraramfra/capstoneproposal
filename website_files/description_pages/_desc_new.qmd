@@ -1,8 +1,10 @@
 ## NEW DATASET
 
+Dataset description
+
 ::: {.static-content}
 
-Dataset description
+<div id="new-content" style="display: none;">
 
 <div class="button-container">
   <a href="" download class="download-button">
@@ -115,3 +117,5 @@ Dataset description
 > Attribution: TBD
 
 :::
+
+</div>

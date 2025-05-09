@@ -1,7 +1,3 @@
----
-title: "Dataset Descriptions"
----
-
 ::: {.page-layout}
 
 <div class="layout-container">
@@ -12,10 +8,9 @@ title: "Dataset Descriptions"
   </aside>
 
   <main class="main-content">
-    <!-- Include Datasets -->
+    {{< include description_pages/_desc_filters_dataset.qmd >}}
     {{< include description_pages/_desc_wildfire.qmd >}}
     {{< include description_pages/_desc_marchmadness.qmd >}}
-    {{< include description_pages/_desc_new.qmd >}}
   </main>
 
 </div>
