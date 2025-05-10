@@ -2,9 +2,9 @@
 
 Dataset description
 
-::: {.static-content}
-
 <div id="new-content" style="display: none;">
+
+::: {.static-content}
 
 <div class="button-container">
   <a href="" download class="download-button">
