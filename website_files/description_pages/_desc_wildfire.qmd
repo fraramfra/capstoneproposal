@@ -25,38 +25,16 @@ Dataset including information on wildfires in the province of Alberta from 2006 
 
 </div>
 
-<div class="table-container">
-  <table class="styled-table">
-    <thead>
-      <tr>
-        <th>Variable Name</th>
-        <th>Role</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Units</th>
-        <th>Missing Values</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>ASSESSMENT_HECTARES</td>
-        <td>Feature</td>
-        <td>Float</td>
-        <td>Fire Size</td>
-        <td>Hectares</td>
-        <td>No</td>
-      </tr>
-      <tr>
-        <td>TRUE_CAUSE</td>
-        <td>Feature</td>
-        <td>Categorical</td>
-        <td>Insufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals</td>
-        <td></td>
-        <td>No</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+::: {.table-container}
+::: {.styled-table}
+
+| Variable Name | Role | Type | Description | Units | Missing Values |
+|-----|-----|-----|-----|-----|-----|
+| ASSESSMENT_HECTARES | Feature | Float | Fire Size | Hectares | No |
+| TRUE_CAUSE | Feature | Categorical | Insufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Spark, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredictable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluids, Arson Known, Animals | - | No |
+
+:::
+:::
 
 :::
 

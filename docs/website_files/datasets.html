@@ -120,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="select-to-expand" class="level3">
 <h3 class="anchored" data-anchor-id="select-to-expand">Select to Expand</h3>
 <div id="dataset-toggle">
-<p><label><input type="checkbox" id="wildfire-checkbox"> Historical Canadian Wildfire Data</label> <label><input type="checkbox" id="marchmadness-checkbox"> Women’s March Madness History</label></p>
+<p><label><input type="checkbox" id="wildfire-checkbox"> Historical Canadian Wildfire Data</label> <label><input type="checkbox" id="marchmadness-checkbox"> Women’s March Madness History</label> <label><input type="checkbox" id="new-checkbox"> New Dataset</label></p>
 </div>
 </section>
 <section id="notebooks-by-tag" class="level3">
@@ -208,71 +208,46 @@ Yes
 </div>
 </div>
 <div class="table-container">
-<table class="styled-table">
+<div class="styled-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
 <thead>
-<tr>
-<th>
-Variable Name
-</th>
-<th>
-Role
-</th>
-<th>
-Type
-</th>
-<th>
-Description
-</th>
-<th>
-Units
-</th>
-<th>
-Missing Values
-</th>
+<tr class="header">
+<th>Variable Name</th>
+<th>Role</th>
+<th>Type</th>
+<th>Description</th>
+<th>Units</th>
+<th>Missing Values</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>
-ASSESSMENT_HECTARES
-</td>
-<td>
-Feature
-</td>
-<td>
-Float
-</td>
-<td>
-Fire Size
-</td>
-<td>
-Hectares
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>ASSESSMENT_HECTARES</td>
+<td>Feature</td>
+<td>Float</td>
+<td>Fire Size</td>
+<td>Hectares</td>
+<td>No</td>
 </tr>
-<tr>
-<td>
-TRUE_CAUSE
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-Insufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Sprak, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredicatable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluis, Arson Known, Animals
-</td>
-<td>
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>TRUE_CAUSE</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Insufficient Resources, Insufficient Buffer, Winter Burning, Incendiary Device, Permit Related, Friction Spark, Hot Exhaust, Unclassified, Burning Substance, Arson Suspected, Unattended Fire, Unpredictable Event, Mechanical Failure, Abandoned Fire, Vehicle Fire, Unsafe Fire, Line Impact, High Hazard, Flammable Fluids, Arson Known, Animals</td>
+<td>-</td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <div class="grid-container">
@@ -357,470 +332,190 @@ Yes
 </div>
 </div>
 <div class="table-container">
-<table class="styled-table">
+<div class="styled-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
 <thead>
-<tr>
-<th>
-Variable Name
-</th>
-<th>
-Role
-</th>
-<th>
-Type
-</th>
-<th>
-Description
-</th>
-<th>
-Units
-</th>
-<th>
-Missing Values
-</th>
+<tr class="header">
+<th>Variable Name</th>
+<th>Role</th>
+<th>Type</th>
+<th>Description</th>
+<th>Units</th>
+<th>Missing Values</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>
-year
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Year
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>year</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Year</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-school
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-School
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>school</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>School</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-seed
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Seed. The 0 seeding designation in 1983 notes the eight teams that played an opening-round game to become the No.&nbsp;8 seed in each region.
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>seed</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Seed. The 0 seeding designation in 1983 notes the eight teams that played an opening-round game to become the No.&nbsp;8 seed in each region.</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-conference
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-Conference
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>conference</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Conference</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-conf_wins
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Conference Wins
-</td>
-<td>
--
-</td>
-<td>
-Yes
-</td>
+<tr class="odd">
+<td>conf_wins</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Wins</td>
+<td>-</td>
+<td>Yes</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-conf_losses
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Conference Losses
-</td>
-<td>
--
-</td>
-<td>
-Yes
-</td>
+<tr class="even">
+<td>conf_losses</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Losses</td>
+<td>-</td>
+<td>Yes</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-conf_wins_pct
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Conference Win Percentage
-</td>
-<td>
--
-</td>
-<td>
-Yes
-</td>
+<tr class="odd">
+<td>conf_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Win Percentage</td>
+<td>-</td>
+<td>Yes</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-conf_rank
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Place in Conference
-</td>
-<td>
--
-</td>
-<td>
-Yes
-</td>
+<tr class="even">
+<td>conf_rank</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Place in Conference</td>
+<td>-</td>
+<td>Yes</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-division
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-Conference Division
-</td>
-<td>
--
-</td>
-<td>
-Yes
-</td>
+<tr class="odd">
+<td>division</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Conference Division</td>
+<td>-</td>
+<td>Yes</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-reg_wins
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Regional Wins
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>reg_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Regional Wins</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-reg_losses
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Regional Losses
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>reg_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Regional Losses</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-reg_wins_pct
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Regional Win Percentage
-</td>
-<td>
-%
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>reg_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Regional Win Percentage</td>
+<td>%</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-bid
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid. [‘at-large’ ‘auto’]
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>bid</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid. [‘at-large’, ‘auto’]</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-first_game_at_home
-</td>
-<td>
-Feature
-</td>
-<td>
-Categorical
-</td>
-<td>
-Whether the school played its first-round tournament games on its home court. [‘Y’ ‘N’]
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>first_game_at_home</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Whether the school played its first-round tournament games on its home court. [‘Y’, ‘N’]</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-tourney_wins
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Tourney Wins
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>tourney_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Tourney Wins</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-tourney_losses
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Tourney Losses
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>tourney_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Tourney Losses</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-tourney_finish
-</td>
-<td>
-Target
-</td>
-<td>
-Categorical
-</td>
-<td>
-Ordered categories: [‘opening_round_loss’ &lt; ‘first_round_loss’ &lt; ‘second_round_loss’ &lt; ‘top_16_loss’ &lt; ‘top_8_loss’ &lt; ‘top_4_loss’ &lt; ‘top_2_loss’ &lt; ‘champ’]
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>tourney_finish</td>
+<td>Target</td>
+<td>Categorical</td>
+<td>Ordered categories: [‘opening_round_loss’ &lt; ‘first_round_loss’ &lt; ‘second_round_loss’ &lt; ‘top_16_loss’ &lt; ‘top_8_loss’ &lt; ‘top_4_loss’ &lt; ‘top_2_loss’ &lt; ‘champ’]</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-total_wins
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Total Wins
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>total_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Total Wins</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-total_losses
-</td>
-<td>
-Feature
-</td>
-<td>
-int64
-</td>
-<td>
-Total Losses
-</td>
-<td>
--
-</td>
-<td>
-No
-</td>
+<tr class="odd">
+<td>total_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Total Losses</td>
+<td>-</td>
+<td>No</td>
 </tr>
-</tbody>
-<tbody>
-<tr>
-<td>
-total_wins_pct
-</td>
-<td>
-Feature
-</td>
-<td>
-float64
-</td>
-<td>
-Total Win Percentage
-</td>
-<td>
-%
-</td>
-<td>
-No
-</td>
+<tr class="even">
+<td>total_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Total Win Percentage</td>
+<td>%</td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <div class="grid-container">
@@ -842,6 +537,150 @@ Women’s March Madness Example A
 <div class="static-content">
 <blockquote class="blockquote">
 <p>Attribution: Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset, available under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Original dataset: <a href="https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament">FiveThirtyEight GitHub Repository</a>. Story: <a href="https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/">Louisiana Tech Was the UConn of the ’80s</a>.</p>
+</blockquote>
+</div>
+</div>
+</section>
+<section id="another-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="another-dataset">Another Dataset</h2>
+<p>Dataset description</p>
+<div id="new-content" style="display: none;">
+<div class="static-content">
+<div class="button-container">
+<p><a href="" download="" class="download-button"> Download CSV </a></p>
+</div>
+<div class="description-grid">
+<div class="field-label">
+CSV Name
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Dataset Characteristics
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Subject Area
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Associated Tasks
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Feature Type
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Instances
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Features
+</div>
+<div class="field-value">
+TBD
+</div>
+<div class="field-label">
+Has Missing Values?
+</div>
+<div class="field-value">
+TBD
+</div>
+</div>
+<div class="table-container">
+<div class="styled-table">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Variable Name</th>
+<th>Role</th>
+<th>Type</th>
+<th>Description</th>
+<th>Units</th>
+<th>Missing Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+<tr class="even">
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="grid-container">
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example A
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Code Tags</strong>: TBD</p>
+<p><strong>Data Science Tags</strong>: TBD</p>
+<p><strong>Library Tags</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example B
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Code Tags</strong>: TBD</p>
+<p><strong>Data Science Tags</strong>: TBD</p>
+<p><strong>Library Tags</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+<div class="grid-item" data-tags="na">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Dataset Example C
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: TBD</p>
+<p><strong>Code Tags</strong>: TBD</p>
+<p><strong>Data Science Tags</strong>: TBD</p>
+<p><strong>Library Tags</strong>: TBD</p>
+<strong>Developer</strong>: TBD
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+</div>
+<div class="static-content">
+<blockquote class="blockquote">
+<p>Attribution: TBD</p>
 </blockquote>
 </div>
 </div>

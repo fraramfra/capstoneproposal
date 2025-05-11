@@ -1,4 +1,4 @@
-## NEW DATASET
+## Another Dataset
 
 Dataset description
 
@@ -25,30 +25,16 @@ Dataset description
 
 </div>
 
-<div class="table-container">
-  <table class="styled-table">
-    <thead>
-      <tr>
-        <th>Variable Name</th>
-        <th>Role</th>
-        <th>Type</th>
-        <th>Description</th>
-        <th>Units</th>
-        <th>Missing Values</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>TBD</td>
-        <td>TBD</td>
-        <td>TBD</td>
-        <td>TBD</td>
-        <td>TBD</td>
-        <td>TBD</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+::: {.table-container}
+::: {.styled-table}
+
+| Variable Name | Role | Type | Description | Units | Missing Values |
+|-----|-----|-----|-----|-----|-----|
+| X | X | X | X | X | X |
+| X | X | X | X | X | X |
+
+:::
+:::
 
 :::
 

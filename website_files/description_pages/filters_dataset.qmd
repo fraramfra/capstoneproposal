@@ -3,4 +3,5 @@
 <div id="dataset-toggle">
   <label><input type="checkbox" id="wildfire-checkbox"> Historical Canadian Wildfire Data</label>
   <label><input type="checkbox" id="marchmadness-checkbox"> Women's March Madness History</label>
+  <label><input type="checkbox" id="new-checkbox"> New Dataset</label>
 </div>
