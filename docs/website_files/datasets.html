@@ -741,6 +741,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Clear button resets all filters
   clearButton.addEventListener("click", function () {
     checkboxes.forEach(cb => cb.checked = false);
+    datasetCheckboxes.forEach(cb => cb.checked = false); // We can remove this line if we dont want the button to act on dataset filter.
     filterItems();
   });
 
