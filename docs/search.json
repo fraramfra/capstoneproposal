@@ -35,13 +35,6 @@
     "text": "library(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 37 rows containing non-finite outside the scale range\n(`stat_smooth()`).\n\n\nWarning: Removed 37 rows containing missing values or values outside the scale range\n(`geom_point()`)."
   },
   {
-    "objectID": "website_files/description_pages/filters_dataset.html",
-    "href": "website_files/description_pages/filters_dataset.html",
-    "title": "Diverse Data Hub",
-    "section": "",
-    "text": "Select to Expand\n\n Historical Canadian Wildfire Data  Women’s March Madness History  New Dataset"
-  },
-  {
     "objectID": "website_files/description_pages/desc_wildfire.html",
     "href": "website_files/description_pages/desc_wildfire.html",
     "title": "Diverse Data Hub",
@@ -109,7 +102,7 @@
     "href": "index.html#download-the-datasets",
     "title": "Diverse Data Hub",
     "section": "Download the Datasets",
-    "text": "Download the Datasets\n\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\nMore Details\n\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\nMore Details"
+    "text": "Download the Datasets\n\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\nMore Details\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\nMore Details"
   },
   {
     "objectID": "index.html#r-package",
@@ -166,13 +159,6 @@
     "title": "Diverse Data Hub",
     "section": "",
     "text": "Dataset description\n\n\n\n Download CSV \n\n\n\nCSV Name\n\n\nTBD\n\n\nDataset Characteristics\n\n\nTBD\n\n\nSubject Area\n\n\nTBD\n\n\nAssociated Tasks\n\n\nTBD\n\n\nFeature Type\n\n\nTBD\n\n\nInstances\n\n\nTBD\n\n\nFeatures\n\n\nTBD\n\n\nHas Missing Values?\n\n\nTBD\n\n\n\n\n\n\n\nVariable Name\nRole\nType\nDescription\nUnits\nMissing Values\n\n\n\n\nX\nX\nX\nX\nX\nX\n\n\nX\nX\nX\nX\nX\nX\n\n\n\n\n\n\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\n\nInquiry: TBD\nCode Tags: TBD\nData Science Tags: TBD\nLibrary Tags: TBD\nDeveloper: TBD\n\nNotebook GitHub\n\n\n\n\nAttribution: TBD"
-  },
-  {
-    "objectID": "website_files/description_pages/filters.html",
-    "href": "website_files/description_pages/filters.html",
-    "title": "Diverse Data Hub",
-    "section": "",
-    "text": "Notebooks By Tag\n\nLanguage Filter\n\n R  Python\n\n\n\nTechnique Filter\n\n Data Wrangling  EDA  Geospatial  Data Visualization  Classification  Regression  Machine Learning  Supervised Learning Unsupervised Learning  Time Series  Hypothesis Testing  Logistic Regression  NA\n\n\n\nLibrary/Package Filter\n\n R = dplyr  R = ggplot2  R = broom  R = gt  R = marginaleffects\n\n\nClear Filters"
   },
   {
     "objectID": "website_files/notebooks/notebook_py.html",
