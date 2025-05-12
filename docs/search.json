@@ -77,11 +77,11 @@
     "text": "This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.\nGet Started →"
   },
   {
-    "objectID": "index.html#download-the-datasets",
-    "href": "index.html#download-the-datasets",
+    "objectID": "index.html#the-datasets",
+    "href": "index.html#the-datasets",
     "title": "Diverse Data Hub",
-    "section": "Download the Datasets",
-    "text": "Download the Datasets\n\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\nMore Details\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\nMore Details"
+    "section": "The Datasets",
+    "text": "The Datasets\n\n\nHistorical Canadian Wildfire Data (2006-2024)\n\n Download CSV \n\nMore Details\n\n\n\nWomen’s March Madness History\n\n Download CSV \n\nMore Details"
   },
   {
     "objectID": "index.html#r-package",

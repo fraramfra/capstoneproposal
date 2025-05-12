@@ -6,7 +6,7 @@ This website contains information related to a curated R data package focused on
 [Get Started →](https://fraramfra.github.io/capstoneproposal/website_files/datasets.html){.btn .btn-primary}
 :::
 
-## Download the Datasets 
+## The Datasets 
 
 :::{.grid-container-3}
 
