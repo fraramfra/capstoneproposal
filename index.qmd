@@ -24,7 +24,6 @@ This website contains information related to a curated R data package focused on
 
 TBD - View on [CRAN]()
 
-
 #### Dev Status
 
 TBD - CRAN Flag
