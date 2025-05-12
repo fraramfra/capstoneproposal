@@ -7,3 +7,5 @@
   </p>
   <a href="https://fraramfra.github.io/capstoneproposal/website_files/description_pages/desc_marchmadness.html" class="btn btn-outline-dark">More Details</a>
 </div>
+
+{{< include website_files/download_pages/script_simple.qmd >}}

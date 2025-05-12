@@ -1,0 +1,18 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Always show all grid items
+  document.querySelectorAll(".grid-item").forEach(item => {
+    item.style.display = "block";
+  });
+
+  // Always show all static content sections
+  document.querySelectorAll(".static-content").forEach(section => {
+    section.style.display = "block";
+  });
+
+  // If any dataset content sections are hidden by inline style, show them too
+  document.querySelectorAll("[id$='-content']").forEach(section => {
+    section.style.display = "block";
+  });
+});
+</script>
