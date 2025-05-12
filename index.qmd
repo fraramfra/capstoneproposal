@@ -6,6 +6,20 @@ This website contains information related to a curated R data package focused on
 [Get Started →](https://fraramfra.github.io/capstoneproposal/website_files/datasets.html){.btn .btn-primary}
 :::
 
+## Download the Datasets 
+
+:::{.grid-container-3}
+
+<div class="grid-item">
+  {{< include website_files/download_pages/_dl_wildfire.qmd >}}
+</div>
+
+<div class="grid-item">
+  {{< include website_files/download_pages/_dl_marchmadness.qmd >}}
+</div>
+
+:::
+
 ## R Package
 
 TBD - View on [CRAN]()
@@ -14,11 +28,6 @@ TBD - View on [CRAN]()
 #### Dev Status
 
 TBD - CRAN Flag
-
-## Download the Datasets 
-
-{{< include website_files/download_pages/_dl_wildfire.qmd >}}
-{{< include website_files/download_pages/_dl_marchmadness.qmd >}}
 
 ## More Information
 

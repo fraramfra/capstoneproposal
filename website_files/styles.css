@@ -272,3 +272,15 @@ Removing chain link icons
 .anchorjs-link {
   display: none;
 }
+
+/*
+Home Page Dataset Grid
+*/
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}

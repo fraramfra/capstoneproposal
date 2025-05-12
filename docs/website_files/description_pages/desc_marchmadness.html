@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R Page With Code – Diverse Data Hub</title>
+<title>desc_marchmadness – Diverse Data Hub</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -145,52 +111,279 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">R Page With Code</h1>
+
+
+
+<section id="womens-march-madness-history" class="level2">
+<h2 class="anchored" data-anchor-id="womens-march-madness-history">Women’s March Madness History</h2>
+<p>Dataset contains data for every team that has participated in the NCAA Division I Women’s Basketball Tournament since it began in 1982. Every school is shown with its seed, conference record (when available), regular-season record, tournament record and full season record, including winning percentages. All data is from the NCAA. This dataset contains the data behind the story <a href="https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/">The Rise and Fall Of Women’s NCAA Tournament Dynasties</a>.</p>
+<div id="marchmadness-content" style="display: none;">
+<div class="static-content">
+<div class="button-container">
+<p><a href="datasets/womens-march-madness-clean.csv" download="" class="download-button"> Download CSV </a></p>
+</div>
+<div class="description-grid">
+<div class="field-label">
+CSV Name
+</div>
+<div class="field-value">
+womens-march-madness-clean.csv
+</div>
+<div class="field-label">
+Dataset Characteristics
+</div>
+<div class="field-value">
+Multivariate
+</div>
+<div class="field-label">
+Subject Area
+</div>
+<div class="field-value">
+Women In Sports
+</div>
+<div class="field-label">
+Associated Tasks
+</div>
+<div class="field-value">
+Regression
+</div>
+<div class="field-label">
+Feature Type
+</div>
+<div class="field-value">
+Categorical, Integer, Float
+</div>
+<div class="field-label">
+Instances
+</div>
+<div class="field-value">
+2092
+</div>
+<div class="field-label">
+Features
+</div>
+<div class="field-value">
+20
+</div>
+<div class="field-label">
+Has Missing Values?
+</div>
+<div class="field-value">
+Yes
+</div>
+</div>
+<div class="table-container">
+<div class="styled-table">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable Name</th>
+<th>Role</th>
+<th>Type</th>
+<th>Description</th>
+<th>Units</th>
+<th>Missing Values</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>year</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Year</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>school</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>School</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>seed</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Seed. The 0 seeding designation in 1983 notes the eight teams that played an opening-round game to become the No.&nbsp;8 seed in each region.</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>conference</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Conference</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>conf_wins</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Wins</td>
+<td>-</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>conf_losses</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Losses</td>
+<td>-</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>conf_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Conference Win Percentage</td>
+<td>-</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>conf_rank</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Place in Conference</td>
+<td>-</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>division</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Conference Division</td>
+<td>-</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>reg_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Regional Wins</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>reg_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Regional Losses</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>reg_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Regional Win Percentage</td>
+<td>%</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>bid</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid. [‘at-large’, ‘auto’]</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>first_game_at_home</td>
+<td>Feature</td>
+<td>Categorical</td>
+<td>Whether the school played its first-round tournament games on its home court. [‘Y’, ‘N’]</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>tourney_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Tourney Wins</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>tourney_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Tourney Losses</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>tourney_finish</td>
+<td>Target</td>
+<td>Categorical</td>
+<td>Ordered categories: [‘opening_round_loss’ &lt; ‘first_round_loss’ &lt; ‘second_round_loss’ &lt; ‘top_16_loss’ &lt; ‘top_8_loss’ &lt; ‘top_4_loss’ &lt; ‘top_2_loss’ &lt; ‘champ’]</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>total_wins</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Total Wins</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>total_losses</td>
+<td>Feature</td>
+<td>int64</td>
+<td>Total Losses</td>
+<td>-</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>total_wins_pct</td>
+<td>Feature</td>
+<td>float64</td>
+<td>Total Win Percentage</td>
+<td>%</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="grid-container">
+<div class="grid-item" data-tags="r,eda,data-visualization,regression,hypothesis-testing">
+<img src="img/dataset.png" width="20px" height="20px">
+<h3 class="anchored">
+Women’s March Madness Example A
+</h3>
+<p>
+</p><p><strong>Inquiry</strong>: Does seed matter?</p>
+<p><strong>Code Tags</strong>: r</p>
+<p><strong>Data Science Tags</strong>: eda, data-visualization, regression, hypothesis-testing</p>
+<p><strong>Library Tags</strong>: TBD</p>
+<strong>Developer</strong>: Francisco Ramirez
+<p></p>
+<p><a href="" class="btn btn-outline-dark">Notebook</a> <a href="" class="btn btn-outline-dark">GitHub</a></p>
+</div>
+</div>
+<div class="static-content">
+<blockquote class="blockquote">
+<p>Attribution: Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset, available under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Original dataset: <a href="https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament">FiveThirtyEight GitHub Repository</a>. Story: <a href="https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/">Louisiana Tech Was the UConn of the ’80s</a>.</p>
+</blockquote>
+</div>
 </div>
 
 
-
-<div class="quarto-title-meta column-page">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(airquality, <span class="fu">aes</span>(Temp, Ozone)) <span class="sc">+</span> </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 37 rows containing non-finite outside the scale range
-(`stat_smooth()`).</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 37 rows containing missing values or values outside the scale range
-(`geom_point()`).</code></pre>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="notebook_r_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

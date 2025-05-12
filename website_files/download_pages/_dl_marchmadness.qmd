@@ -4,6 +4,6 @@
   <a href="website_files/datasets/womens-march-madness-clean.csv" download class="download-button">
     Download CSV
   </a>
+  </p>
+  <a href="https://fraramfra.github.io/capstoneproposal/website_files/description_pages/desc_marchmadness.html" class="btn btn-outline-dark">More Details</a>
 </div>
-
-> Attribution: Data sourced from FiveThirtyEight's NCAA Women's Basketball Tournament dataset, available under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Original dataset: [FiveThirtyEight GitHub Repository](https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament). Story: [Louisiana Tech Was the UConn of the '80s](https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/).

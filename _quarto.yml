@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Welcome
       - href: website_files/datasets.qmd
-        text: Datasets
+        text: All The Datasets
 
 format:
   html:
