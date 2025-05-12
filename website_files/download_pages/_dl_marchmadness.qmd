@@ -5,5 +5,5 @@
     Download CSV
   </a>
   </p>
-  <a href="https://fraramfra.github.io/capstoneproposal/website_files/datasets.html#marchmadness-content" class="btn btn-outline-dark">More Details</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/website_files/datasets.html#womens-march-madness-history" class="btn btn-outline-dark">More Details</a>
 </div>
