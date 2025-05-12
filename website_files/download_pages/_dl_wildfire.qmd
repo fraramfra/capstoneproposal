@@ -5,5 +5,5 @@
     Download CSV
   </a>
   </p>
-  <a href="https://fraramfra.github.io/capstoneproposal/website_files/datasets.html#historical-canadian-wildfire-data" class="btn btn-outline-dark">More Details</a>
+  <a href="https://fraramfra.github.io/capstoneproposal/website_files/datasets.html#wildfire-content" class="btn btn-outline-dark">More Details</a>
 </div>
