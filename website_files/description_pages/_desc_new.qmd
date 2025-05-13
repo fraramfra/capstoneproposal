@@ -1,8 +1,8 @@
+## Another Dataset
+
 <div id="new-content" style="display: none;">
 
 ::: {.static-content}
-
-## Another Dataset
 
 Dataset description
 
