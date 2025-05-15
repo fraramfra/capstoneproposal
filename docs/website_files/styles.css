@@ -33,6 +33,15 @@ img {
     display: block;    
 }
 
+.logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+
 /*
 CSV DOWNLOAD BUTTONS
 */

@@ -1,5 +1,10 @@
+
+
+
 ::: {.hero-banner}
 ## Diverse Data Repository for Data Science Education
+
+<img src="website_files/img/logo.png" class="logo">
 
 This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.
 
