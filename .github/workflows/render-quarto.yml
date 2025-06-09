@@ -18,15 +18,10 @@ jobs:
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
 
-    - name: Install system dependencies for common R packages
-      uses: r-lib/actions/setup-r-dependencies@v2
-      with:
-        extra-packages: renv
-
-    - name: Restore R packages using renv
+    - name: Install and restore with renv
       run: |
-        Rscript -e 'install.packages("renv")'
-        Rscript -e 'renv::restore()'
+        Rscript -e 'install.packages("renv", repos = "https://cloud.r-project.org")'
+        Rscript -e 'renv::restore(prompt = FALSE)'
 
     - name: Render Quarto site
       run: quarto render
