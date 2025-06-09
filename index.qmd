@@ -8,6 +8,8 @@
 
 This website contains information related to a curated R data package focused on EDI-focused datasets, aiming to empower instructors to integrate equity, diversity, and inclusion themes into their classrooms through real-world data, contextual narratives, and applied data science projects. This website also includes teaching examples using the curated datasets.
 
+This is a test.
+
 [Get Started →](https://fraramfra.github.io/capstoneproposal/website_files/datasets.html){.btn .btn-primary}
 :::
 
